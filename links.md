@@ -1,0 +1,9 @@
+https://natlawreview.com/article/artificial-intelligence-provisions-fiscal-year-2026-house-and-senate-national
+https://rebootdemocracy.ai/blog/NJ-AI-2025
+https://www.theguardian.com/world/2025/sep/11/albania-diella-ai-minister-public-procurement
+https://nationalcenterforstatecourts.shinyapps.io/AIReadinessGuide/
+https://www.aspeninstitute.org/blog-posts/worker-power-in-the-age-of-ai-monopolies-why-we-need-structural-solutions-now/
+https://www.cogitatiopress.com/politicsandgovernance/article/view/10468
+https://www.peoplepowered.org/digital-guide-home
+https://rebootdemocracy.ai/blog/public-engagement-matters-but-governments-need-to-learn-to-listen-better-and-faster
+https://www.newsguardrealitycheck.com/p/after-kirk-assassination-ai-fact

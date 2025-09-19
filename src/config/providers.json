@@ -1,0 +1,23 @@
+{
+  "order": ["playwright", "basic-http", "readability", "trafilatura", "diffbot"],
+  "playwright": {
+    "enabled": true
+  },
+  "basic-http": {
+    "enabled": true
+  },
+  "readability": {
+    "enabled": true
+  },
+  "pdf": {
+    "enabled": true
+  },
+  "trafilatura": {
+    "enabled": false,
+    "endpoint": "http://localhost:8000/extract"
+  },
+  "diffbot": {
+    "enabled": false,
+    "endpoint": "https://api.diffbot.com/v3/article"
+  }
+}

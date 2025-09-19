@@ -1,0 +1,915 @@
+{
+  "metadata": {
+    "startedAt": "2025-09-18T18:43:05.865Z",
+    "durationMs": 46724,
+    "total": 9
+  },
+  "records": [
+    {
+      "url": "https://natlawreview.com/article/artificial-intelligence-provisions-fiscal-year-2026-house-and-senate-national",
+      "confidence": {
+        "score": 95,
+        "band": "green",
+        "emoji": "🟢"
+      },
+      "reason": "All key fields captured.",
+      "provider": "readability",
+      "raw": {
+        "body": "Artificial Intelligence Provisions in the Fiscal Year 2026 House and Senate National Defense Authorization Acts\n\n    \n  \n  \n    \n      Thursday, September 11, 2025\n\n    \n  Both the US House of Representatives and the US Senate have continued to increase the attention paid to artificial intelligence (AI) issues for the defense sector, most notably by including a number of provisions in the text of the National Defense Authorization Act (NDAA) for Fiscal Year 2026 (FY 2026), alongside the Senate’s version. The Chairman’s Mark of the July 2025 text of the NDAA notes that the House Armed Services Committee “is aware of the rapidly changing capabilities of [AI] and recognizes its expanding potential for application across the Department of Defense.” The House bill emphasizes the widespread impact of AI across administrative, international, and research functions. On the Senate side, the bill stresses the long-term capabilities of AI creating opportunities for experimentation, model development, and risk frameworks. The House Armed Services Committee passed their version of the NDAA with a vote of 55-2 and the Senate Armed Services Committee advanced its version of the bill on 9 July 2025, after a 26-1 vote. Both chambers will spend the first two weeks of September debating their respective NDAAs on the floor while considering hundreds of amendments. It is highly likely both bills will succeed in getting off the floor but the House version will be more partisan. The bills will be reconciled during the conference process before final passage in both chambers and ultimately signed into law by the president. Stakeholders should closely monitor this process, as key provisions related to AI could shift during conference negotiations or floor amendments.\nKey Takeaways:\n\nBoth the House and Senate versions of the FY 2026 NDAA prioritize the adoption and integration of AI across military operations, logistics, and mission-critical applications. \nBoth the House and Senate highlight the importance of workforce development, with AI education, cybersecurity training, and advanced manufacturing skills, while the Senate also establishes experimental sandbox environments for training and model development.\nAlthough governance is a main priority in both the House and Senate, Senate places an emphasized focus on standardized frameworks, risk-based security measures, and supply-chain oversight.\n\nAI Education and Training\nIn Section 822, the House bill establishes a working group to address workforce shortages in advanced manufacturing, including AI, and encourages public-private partnerships to incentivize government and industry participation. The House Armed Services Committee also adds a renewed focus for the Department of Defense’s (DoD) annual cybersecurity training to include the unique challenges related to AI (Section 1512). The Senate bill complements this approach in Section 1622 by establishing a taskforce within the DoD to create an AI sandbox environment for experimentation, training, and model development. This taskforce is intended to accelerate responsible AI adoption and strengthen public-private partnerships. \nAI Governance, Oversight, and Security \nThe House bill emphasizes modernization and security in technology policy. Section 1074 outlines a framework to modernize the technology transfer policies of the military departments and update the National Disclosure Policy, which governs the sharing of classified military information to foreign governments and international organizations. It lists detailed guidelines for security considerations for information sharing between US allies and partners. It further calls for the adoption of industry-recognized frameworks to guide best practices, established standards for governance, and specific training requirements to mitigate vulnerabilities specific to AI and machine learning (Section 1531). The bill also directs the DoD to establish requirements for managing “biological data” generated through DoD-funded research in a way that supports the development and use of AI technologies (Section 1521). Although Section 1521 does not explicitly define “biological data,” it instructs the Secretary of Defense to develop a definition for “qualified biological data resource” based on several criteria: (1) the type of biological data generated, (2) the size of the data collection, (3) the amount of federal funding awarded to the research, (4) the sensitivity level of the data, and (5) any other factor the Secretary deems appropriate.  \nThe Senate bill includes several provisions to strengthen AI governance and security. It calls for a standardized model assessment and oversight framework (Section 1623), a Department-wide ontology governance working group to ensure data interoperability (Section 1624), and a steering committee to evaluate the strategic implications of AI intelligence (Section 1626). Further, the Senate bill mandates risk-based cybersecurity and physical security requirements for AI systems (Section 1627), prohibits the use of certain foreign-developed AI technologies (Section 1628), and directs the Secretary of Defense to develop digital content provenance standards to safeguard the integrity of AI-generated media (Section 1629). It also includes  provisions to create a public-private cybersecurity partnership focused on advanced AI systems (Section 1621) as well as secure digital sandbox environments for testing and experimentation (Section 1622).\nDeployment and Operational Methods for AI Research and Development\nIn Section 1532, the House bill calls for accelerated utilization of AI in military operations and coordination by launching pilot programs for the Army, Navy, and Air Force branches. These programs would employ commercial AI solutions to improve ground vehicle maintenance. The DoD is also required to produce up to 12 generative AI tools to support mission-critical areas such as damage assessment, cybersecurity, mission analysis, and others (Section 1533). \nAdditionally, Section 328 of the Senate bill directs the Secretary of Defense to integrate commercially available AI tools specifically for logistics tracking, planning, operations, and analytics into at least two exercises during FY26. This section mirrors the House’s focus on incorporating commercial AI into logistics operations to test and evaluate AI tools in operational contexts. \nUnique House AI Initiatives \nIn Title X and XVIII, the House Armed Services Committee creates broad, yet firm calls for the survey and accelerated adoption of AI technologies. In Title X, the DoD must evaluate and survey all current AI technologies in use to find areas to be improved in terms of accuracy and reducing collateral damage. Additionally, in Title XVIII, the DoD is authorized to accelerate autonomy-enabling software across defense programs using middle-tier acquisition authorities allowed by Section 3603 of Title X. Lastly, the House bill uniquely targets international cooperation. In Section 1202, the bill establishes an emerging technology cooperation program with certain allies to conduct joint research, development, testing, and evaluation in critical areas such as AI, cybersecurity, robotics, quantum, and automation. \nUnique Senate AI Initiatives\nThe Senate NDAA establishes targeted initiatives for AI across national security domains. Section 3118 limits AI research within the National Nuclear Security Administration to support nuclear security missions, while allowing resource sharing with other agencies. Section 1602 directs the commander of United States Cyber Command, in coordination with DoD AI leadership and research offices, to develop a roadmap for industry collaboration on AI-enabled cyberspace operations. This roadmap will guide private sector engagement and the integration of advanced AI into cyber operations. \nConclusion\nThe House and Senate Armed Services Committees are not the only congressional bodies focused on advancing AI federal policy. Multiple committees across jurisdictions have actively engaged in this effort, holding hearings and drafting legislation aimed at shaping the future of AI governance. \nIn parallel, the Trump administration recently introduced its AI Action Plan along with a robust AI export strategy (see our alerts on the AI Action Plan and AI Export Strategy for further details). We anticipate continued momentum in both Congress and the Executive Branch in the months ahead. \nOur Policy and Regulatory practice team is closely monitoring both legislative and regulatory developments and is ready to help advocate for your policy priorities in this rapidly evolving landscape.",
+        "word_count": 1244,
+        "title": "Artificial Intelligence Provisions in the Fiscal Year 2026 House and Senate National Defense Authorization Acts",
+        "author": "Scott J. Gelbman",
+        "description": "Both the US House of Representatives and the US Senate have continued to increase the attention paid to artificial intelligence (AI) issues for the defense sector, most notably by including a number of provisions in the text of the National Defense Authorization Act (NDAA) for Fiscal Year 2026 (FY 2026), alongside the Senate’s version.",
+        "publication_date": "2025-09-11T19:15:30.000Z",
+        "published_on": "National Law Review",
+        "final_url": "https://natlawreview.com/article/artificial-intelligence-provisions-fiscal-year-2026-house-and-senate-national",
+        "tags": [
+          "Artificial",
+          "Intelligence",
+          "Provisions",
+          "Fiscal",
+          "Year",
+          "House",
+          "Senate",
+          "National",
+          "Defense",
+          "Authorization"
+        ],
+        "provenance": {
+          "body": "readability",
+          "word_count": "readability",
+          "title": "readability",
+          "author": "readability",
+          "description": "metascraper",
+          "publication_date": "metascraper",
+          "published_on": "metascraper",
+          "final_url": "metascraper",
+          "tags": "readability"
+        },
+        "providersUsed": [
+          "playwright",
+          "readability",
+          "metascraper"
+        ],
+        "notes": [],
+        "providerOutcomes": [
+          {
+            "name": "playwright",
+            "status": "ok",
+            "statusCode": 200
+          },
+          {
+            "name": "basic-http",
+            "status": "ok",
+            "statusCode": 200
+          },
+          {
+            "name": "readability",
+            "status": "ok"
+          }
+        ]
+      },
+      "redacted": false,
+      "provenance": {
+        "body": "readability",
+        "word_count": "readability",
+        "title": "readability",
+        "author": "readability",
+        "description": "metascraper",
+        "publication_date": "metascraper",
+        "published_on": "metascraper",
+        "final_url": "metascraper",
+        "tags": "readability"
+      },
+      "providersUsed": [
+        "playwright",
+        "readability",
+        "metascraper"
+      ],
+      "body": "Artificial Intelligence Provisions in the Fiscal Year 2026 House and Senate National Defense Authorization Acts\n\n    \n  \n  \n    \n      Thursday, September 11, 2025\n\n    \n  Both the US House of Representatives and the US Senate have continued to increase the attention paid to artificial intelligence (AI) issues for the defense sector, most notably by including a number of provisions in the text of the National Defense Authorization Act (NDAA) for Fiscal Year 2026 (FY 2026), alongside the Senate’s version. The Chairman’s Mark of the July 2025 text of the NDAA notes that the House Armed Services Committee “is aware of the rapidly changing capabilities of [AI] and recognizes its expanding potential for application across the Department of Defense.” The House bill emphasizes the widespread impact of AI across administrative, international, and research functions. On the Senate side, the bill stresses the long-term capabilities of AI creating opportunities for experimentation, model development, and risk frameworks. The House Armed Services Committee passed their version of the NDAA with a vote of 55-2 and the Senate Armed Services Committee advanced its version of the bill on 9 July 2025, after a 26-1 vote. Both chambers will spend the first two weeks of September debating their respective NDAAs on the floor while considering hundreds of amendments. It is highly likely both bills will succeed in getting off the floor but the House version will be more partisan. The bills will be reconciled during the conference process before final passage in both chambers and ultimately signed into law by the president. Stakeholders should closely monitor this process, as key provisions related to AI could shift during conference negotiations or floor amendments.\nKey Takeaways:\n\nBoth the House and Senate versions of the FY 2026 NDAA prioritize the adoption and integration of AI across military operations, logistics, and mission-critical applications. \nBoth the House and Senate highlight the importance of workforce development, with AI education, cybersecurity training, and advanced manufacturing skills, while the Senate also establishes experimental sandbox environments for training and model development.\nAlthough governance is a main priority in both the House and Senate, Senate places an emphasized focus on standardized frameworks, risk-based security measures, and supply-chain oversight.\n\nAI Education and Training\nIn Section 822, the House bill establishes a working group to address workforce shortages in advanced manufacturing, including AI, and encourages public-private partnerships to incentivize government and industry participation. The House Armed Services Committee also adds a renewed focus for the Department of Defense’s (DoD) annual cybersecurity training to include the unique challenges related to AI (Section 1512). The Senate bill complements this approach in Section 1622 by establishing a taskforce within the DoD to create an AI sandbox environment for experimentation, training, and model development. This taskforce is intended to accelerate responsible AI adoption and strengthen public-private partnerships. \nAI Governance, Oversight, and Security \nThe House bill emphasizes modernization and security in technology policy. Section 1074 outlines a framework to modernize the technology transfer policies of the military departments and update the National Disclosure Policy, which governs the sharing of classified military information to foreign governments and international organizations. It lists detailed guidelines for security considerations for information sharing between US allies and partners. It further calls for the adoption of industry-recognized frameworks to guide best practices, established standards for governance, and specific training requirements to mitigate vulnerabilities specific to AI and machine learning (Section 1531). The bill also directs the DoD to establish requirements for managing “biological data” generated through DoD-funded research in a way that supports the development and use of AI technologies (Section 1521). Although Section 1521 does not explicitly define “biological data,” it instructs the Secretary of Defense to develop a definition for “qualified biological data resource” based on several criteria: (1) the type of biological data generated, (2) the size of the data collection, (3) the amount of federal funding awarded to the research, (4) the sensitivity level of the data, and (5) any other factor the Secretary deems appropriate.  \nThe Senate bill includes several provisions to strengthen AI governance and security. It calls for a standardized model assessment and oversight framework (Section 1623), a Department-wide ontology governance working group to ensure data interoperability (Section 1624), and a steering committee to evaluate the strategic implications of AI intelligence (Section 1626). Further, the Senate bill mandates risk-based cybersecurity and physical security requirements for AI systems (Section 1627), prohibits the use of certain foreign-developed AI technologies (Section 1628), and directs the Secretary of Defense to develop digital content provenance standards to safeguard the integrity of AI-generated media (Section 1629). It also includes  provisions to create a public-private cybersecurity partnership focused on advanced AI systems (Section 1621) as well as secure digital sandbox environments for testing and experimentation (Section 1622).\nDeployment and Operational Methods for AI Research and Development\nIn Section 1532, the House bill calls for accelerated utilization of AI in military operations and coordination by launching pilot programs for the Army, Navy, and Air Force branches. These programs would employ commercial AI solutions to improve ground vehicle maintenance. The DoD is also required to produce up to 12 generative AI tools to support mission-critical areas such as damage assessment, cybersecurity, mission analysis, and others (Section 1533). \nAdditionally, Section 328 of the Senate bill directs the Secretary of Defense to integrate commercially available AI tools specifically for logistics tracking, planning, operations, and analytics into at least two exercises during FY26. This section mirrors the House’s focus on incorporating commercial AI into logistics operations to test and evaluate AI tools in operational contexts. \nUnique House AI Initiatives \nIn Title X and XVIII, the House Armed Services Committee creates broad, yet firm calls for the survey and accelerated adoption of AI technologies. In Title X, the DoD must evaluate and survey all current AI technologies in use to find areas to be improved in terms of accuracy and reducing collateral damage. Additionally, in Title XVIII, the DoD is authorized to accelerate autonomy-enabling software across defense programs using middle-tier acquisition authorities allowed by Section 3603 of Title X. Lastly, the House bill uniquely targets international cooperation. In Section 1202, the bill establishes an emerging technology cooperation program with certain allies to conduct joint research, development, testing, and evaluation in critical areas such as AI, cybersecurity, robotics, quantum, and automation. \nUnique Senate AI Initiatives\nThe Senate NDAA establishes targeted initiatives for AI across national security domains. Section 3118 limits AI research within the National Nuclear Security Administration to support nuclear security missions, while allowing resource sharing with other agencies. Section 1602 directs the commander of United States Cyber Command, in coordination with DoD AI leadership and research offices, to develop a roadmap for industry collaboration on AI-enabled cyberspace operations. This roadmap will guide private sector engagement and the integration of advanced AI into cyber operations. \nConclusion\nThe House and Senate Armed Services Committees are not the only congressional bodies focused on advancing AI federal policy. Multiple committees across jurisdictions have actively engaged in this effort, holding hearings and drafting legislation aimed at shaping the future of AI governance. \nIn parallel, the Trump administration recently introduced its AI Action Plan along with a robust AI export strategy (see our alerts on the AI Action Plan and AI Export Strategy for further details). We anticipate continued momentum in both Congress and the Executive Branch in the months ahead. \nOur Policy and Regulatory practice team is closely monitoring both legislative and regulatory developments and is ready to help advocate for your policy priorities in this rapidly evolving landscape.",
+      "word_count": 1244,
+      "title": "Artificial Intelligence Provisions in the Fiscal Year 2026 House and Senate National Defense Authorization Acts",
+      "author": "Scott J. Gelbman",
+      "description": "Both the US House of Representatives and the US Senate have continued to increase the attention paid to artificial intelligence (AI) issues for the defense sector, most notably by including a number of provisions in the text of the National Defense Authorization Act (NDAA) for Fiscal Year 2026 (FY 2026), alongside the Senate’s version.",
+      "publication_date": "2025-09-11T19:15:30.000Z",
+      "published_on": "National Law Review",
+      "final_url": "https://natlawreview.com/article/artificial-intelligence-provisions-fiscal-year-2026-house-and-senate-national",
+      "tags": [
+        "Artificial",
+        "Intelligence",
+        "Provisions",
+        "Fiscal",
+        "Year",
+        "House",
+        "Senate",
+        "National",
+        "Defense",
+        "Authorization"
+      ]
+    },
+    {
+      "url": "https://rebootdemocracy.ai/blog/NJ-AI-2025",
+      "confidence": {
+        "score": 95,
+        "band": "green",
+        "emoji": "🟢"
+      },
+      "reason": "All key fields captured.",
+      "provider": "readability",
+      "raw": {
+        "body": "From Interim to Institution: New Jersey’s Three-Pillar Strategy for Responsible AI\nIn July, Code for America named New Jersey (opens in new window) one of only three states with “advanced” AI readiness. That honor recognizes how we have combined policy, access, and training into a coherent strategy for using AI responsibly in government.\nWe were the first state to issue an AI use policy back in 2023. Importantly, that guidance was always meant to be interim. Its purpose was to encourage responsible experimentation at a moment when generative AI tools were brand new and untested in government.\nWe knew staff needed both permission and guardrails to start exploring how these technologies might make their work faster, clearer, or more accessible to the public.\nTwo years later, more than 15,000 state employees—over one in five—are using generative AI. They’ve logged hundreds of thousands of prompts in the NJ AI Assistant, and they’ve completed training that equips them to use the technology ethically. With this scale of adoption, it was time to update our policy. \nThis month, New Jersey’s Chief Technology Officer, working together with the State’s Office of Innovation, issued version 2 of the State’s AI Policy. (opens in new window)\nWhat’s New in the 2025 Guidance\nThe revised guidance moves from a spirit of exploration to one of institutionalization, shifting from “try it out” to “scale it safely.”\n\n\nTraining is now required.“Before accessing or using generative AI in their official capacity, all state employees should take the ‘Responsible AI for Public Professionals’ course available in the New Jersey Civil Service Commission Learning Management System.”In New Jersey, we designed our own training and shared it freely with other states through the InnovateUS (opens in new window) initiative\n\n\nHigh-risk uses require clearance.“The use of resident-facing or decisional generative AI systems must be cleared by the State Chief Technology Officer or their delegate and registered with the NJ Office of Information Technology… When resident-facing or decisional generative AI systems are used, disclosure of generative AI use must be displayed prominently to the user.”In other words, public professionals should—and are—using AI for their own productivity, but heightened scrutiny must be applied for uses that directly impact residents.\n\n\nSecure environments for sensitive data.“Sensitive Personally Identifiable Information… may only be used under the following conditions: the tool used is a State-Approved AI Tool such as the NJ AI Assistant… [and] the tool use is approved by your Agency Chief Information Officer.”This is a major shift from the earlier blanket ban.\n\n\nHuman review remains non-negotiable.“Human review of AI content should cover the following elements: accuracy; gender, racial, and other types of bias; completeness; accessibility; and style.”\n\n\nTogether, these updates show a deliberate shift from encouraging experimentation to building the systems and safeguards needed for AI at scale.\nWhy the Policy Still Matters Most\nAccess and training (opens in new window) are critical, but policy remains the foundation. Without clear guardrails, public servants might not feel safe experimenting—or worse, they might adopt AI in ways that undermine trust.\nThe policy provides both permission and protection: it tells employees that they can use AI to draft, translate, summarize, or analyze, but it also tells them how to do it safely. It ensures that even as we scale access and build skills, AI is used for purposes that matter—helping families access food benefits, simplifying forms, improving call center response, or analyzing citizen feedback.\nLessons for Other States and Cities\nI think we got this sequencing right and recommend it to others considering how to incorporate AI responsibly:\n\n\nStart with a policy that encourages experimentation in the public interest. Don’t wait for perfection—set interim guardrails so employees can begin learning. Boston did this first, and we followed its lead in using AI with a clear injunction to use it wisely to improve governance.\n\n\nInvest in access and training together. Giving people tools without guidance is risky; training without access is irrelevant. That’s why we created the InnovateUS (opens in new window) training that shows how to use AI for public purposes in governing—and gave staff access to the latest models so they could test what AI can and cannot do while protecting privacy.\n\n\nUpdate the policy as adoption grows. Governance must evolve alongside usage, becoming more structured as risks and opportunities become clearer. Every agency has an AI lead and we meet regularly. This forum, together with our live trainings, provides additional opportunities to surface and answer questions. We answer them in an FAQ (opens in new window) that we can add to even faster than the policy.\n\n\nBeyond Policy: The Next Challenge\nNew Jersey’s updated guidance is less about rules on paper and more about creating the conditions for responsible, meaningful use of AI in government. But policy is not the end point.\nAs Chief AI Strategist for New Jersey, I believe our next challenge is to accelerate how we use these tools critically in our day-to-day work to improve service delivery. The policy is a guardrail—but the purpose is impact.\nBy using AI to match records across agencies, the State’s Office of Innovation enrolled more than 693,000 eligible children in the summer food program (opens in new window), reaching tens of thousands more families than traditional methods. \nWe need to do much more of that—leveraging AI not just to make government work faster, but to make it work better for the people who rely on it most.\nThe Bottom Line\nPolicy, access, and training—together—make it possible for AI to improve the daily work of public service, while keeping equity, accountability, and public trust at the center. The job now is to ensure that responsible use translates into real, measurable improvements in people’s lives.",
+        "word_count": 944,
+        "title": "From Interim to Institution: New Jersey’s Three-Pillar Strategy for Responsible AI",
+        "author": "Beth Simone Noveck Read Bio →",
+        "description": "With its new 2025 AI policy, New Jersey has advanced from interim guidance that encouraged experimentation to a framework that enables safe, large-scale use. Building on two years of training and adoption by more than 15,000 public servants, the state is now focused on using AI not just to streamline work, but to deliver better services where it matters most.",
+        "publication_date": "2025-09-15T19:00:00.000Z",
+        "published_on": "Burnes Center for Social Change logo",
+        "final_url": "https://rebootdemocracy.ai/blog/NJ-AI-2025",
+        "tags": [
+          "Interim",
+          "Institution",
+          "Jerseys",
+          "Three-Pillar",
+          "Strategy",
+          "Responsible",
+          "AI",
+          "July",
+          "Code",
+          "America"
+        ],
+        "provenance": {
+          "body": "readability",
+          "word_count": "readability",
+          "title": "readability",
+          "author": "readability",
+          "description": "metascraper",
+          "publication_date": "metascraper",
+          "published_on": "metascraper",
+          "final_url": "metascraper",
+          "tags": "readability"
+        },
+        "providersUsed": [
+          "playwright",
+          "readability",
+          "metascraper"
+        ],
+        "notes": [],
+        "providerOutcomes": [
+          {
+            "name": "playwright",
+            "status": "ok",
+            "statusCode": 200
+          },
+          {
+            "name": "basic-http",
+            "status": "ok",
+            "statusCode": 200
+          },
+          {
+            "name": "readability",
+            "status": "ok"
+          }
+        ]
+      },
+      "redacted": false,
+      "provenance": {
+        "body": "readability",
+        "word_count": "readability",
+        "title": "readability",
+        "author": "readability",
+        "description": "metascraper",
+        "publication_date": "metascraper",
+        "published_on": "metascraper",
+        "final_url": "metascraper",
+        "tags": "readability"
+      },
+      "providersUsed": [
+        "playwright",
+        "readability",
+        "metascraper"
+      ],
+      "body": "From Interim to Institution: New Jersey’s Three-Pillar Strategy for Responsible AI\nIn July, Code for America named New Jersey (opens in new window) one of only three states with “advanced” AI readiness. That honor recognizes how we have combined policy, access, and training into a coherent strategy for using AI responsibly in government.\nWe were the first state to issue an AI use policy back in 2023. Importantly, that guidance was always meant to be interim. Its purpose was to encourage responsible experimentation at a moment when generative AI tools were brand new and untested in government.\nWe knew staff needed both permission and guardrails to start exploring how these technologies might make their work faster, clearer, or more accessible to the public.\nTwo years later, more than 15,000 state employees—over one in five—are using generative AI. They’ve logged hundreds of thousands of prompts in the NJ AI Assistant, and they’ve completed training that equips them to use the technology ethically. With this scale of adoption, it was time to update our policy. \nThis month, New Jersey’s Chief Technology Officer, working together with the State’s Office of Innovation, issued version 2 of the State’s AI Policy. (opens in new window)\nWhat’s New in the 2025 Guidance\nThe revised guidance moves from a spirit of exploration to one of institutionalization, shifting from “try it out” to “scale it safely.”\n\n\nTraining is now required.“Before accessing or using generative AI in their official capacity, all state employees should take the ‘Responsible AI for Public Professionals’ course available in the New Jersey Civil Service Commission Learning Management System.”In New Jersey, we designed our own training and shared it freely with other states through the InnovateUS (opens in new window) initiative\n\n\nHigh-risk uses require clearance.“The use of resident-facing or decisional generative AI systems must be cleared by the State Chief Technology Officer or their delegate and registered with the NJ Office of Information Technology… When resident-facing or decisional generative AI systems are used, disclosure of generative AI use must be displayed prominently to the user.”In other words, public professionals should—and are—using AI for their own productivity, but heightened scrutiny must be applied for uses that directly impact residents.\n\n\nSecure environments for sensitive data.“Sensitive Personally Identifiable Information… may only be used under the following conditions: the tool used is a State-Approved AI Tool such as the NJ AI Assistant… [and] the tool use is approved by your Agency Chief Information Officer.”This is a major shift from the earlier blanket ban.\n\n\nHuman review remains non-negotiable.“Human review of AI content should cover the following elements: accuracy; gender, racial, and other types of bias; completeness; accessibility; and style.”\n\n\nTogether, these updates show a deliberate shift from encouraging experimentation to building the systems and safeguards needed for AI at scale.\nWhy the Policy Still Matters Most\nAccess and training (opens in new window) are critical, but policy remains the foundation. Without clear guardrails, public servants might not feel safe experimenting—or worse, they might adopt AI in ways that undermine trust.\nThe policy provides both permission and protection: it tells employees that they can use AI to draft, translate, summarize, or analyze, but it also tells them how to do it safely. It ensures that even as we scale access and build skills, AI is used for purposes that matter—helping families access food benefits, simplifying forms, improving call center response, or analyzing citizen feedback.\nLessons for Other States and Cities\nI think we got this sequencing right and recommend it to others considering how to incorporate AI responsibly:\n\n\nStart with a policy that encourages experimentation in the public interest. Don’t wait for perfection—set interim guardrails so employees can begin learning. Boston did this first, and we followed its lead in using AI with a clear injunction to use it wisely to improve governance.\n\n\nInvest in access and training together. Giving people tools without guidance is risky; training without access is irrelevant. That’s why we created the InnovateUS (opens in new window) training that shows how to use AI for public purposes in governing—and gave staff access to the latest models so they could test what AI can and cannot do while protecting privacy.\n\n\nUpdate the policy as adoption grows. Governance must evolve alongside usage, becoming more structured as risks and opportunities become clearer. Every agency has an AI lead and we meet regularly. This forum, together with our live trainings, provides additional opportunities to surface and answer questions. We answer them in an FAQ (opens in new window) that we can add to even faster than the policy.\n\n\nBeyond Policy: The Next Challenge\nNew Jersey’s updated guidance is less about rules on paper and more about creating the conditions for responsible, meaningful use of AI in government. But policy is not the end point.\nAs Chief AI Strategist for New Jersey, I believe our next challenge is to accelerate how we use these tools critically in our day-to-day work to improve service delivery. The policy is a guardrail—but the purpose is impact.\nBy using AI to match records across agencies, the State’s Office of Innovation enrolled more than 693,000 eligible children in the summer food program (opens in new window), reaching tens of thousands more families than traditional methods. \nWe need to do much more of that—leveraging AI not just to make government work faster, but to make it work better for the people who rely on it most.\nThe Bottom Line\nPolicy, access, and training—together—make it possible for AI to improve the daily work of public service, while keeping equity, accountability, and public trust at the center. The job now is to ensure that responsible use translates into real, measurable improvements in people’s lives.",
+      "word_count": 944,
+      "title": "From Interim to Institution: New Jersey’s Three-Pillar Strategy for Responsible AI",
+      "author": "Beth Simone Noveck Read Bio →",
+      "description": "With its new 2025 AI policy, New Jersey has advanced from interim guidance that encouraged experimentation to a framework that enables safe, large-scale use. Building on two years of training and adoption by more than 15,000 public servants, the state is now focused on using AI not just to streamline work, but to deliver better services where it matters most.",
+      "publication_date": "2025-09-15T19:00:00.000Z",
+      "published_on": "Burnes Center for Social Change logo",
+      "final_url": "https://rebootdemocracy.ai/blog/NJ-AI-2025",
+      "tags": [
+        "Interim",
+        "Institution",
+        "Jerseys",
+        "Three-Pillar",
+        "Strategy",
+        "Responsible",
+        "AI",
+        "July",
+        "Code",
+        "America"
+      ]
+    },
+    {
+      "url": "https://www.theguardian.com/world/2025/sep/11/albania-diella-ai-minister-public-procurement",
+      "confidence": {
+        "score": 95,
+        "band": "green",
+        "emoji": "🟢"
+      },
+      "reason": "All key fields captured.",
+      "provider": "readability",
+      "raw": {
+        "body": "A digital assistant that helps people navigate government services online has become the first “virtually created” AI cabinet minister and put in charge of public procurement in an attempt to cut down on corruption, the Albanian prime minister has said.Diella, which means Sun in Albanian, has been advising users on the state’s e-Albania portal since January, helping them through voice commands with the full range of bureaucratic tasks they need to perform in order to access about 95% of citizen services digitally.“Diella, the first cabinet member who is not physically present, but has been virtually created by AI”, would help make Albania “a country where public tenders are 100% free of corruption”, Edi Rama said on Thursday.Announcing the makeup of his fourth consecutive government at the ruling Socialist party conference in Tirana, Rama said Diella, who on the e-Albania portal is dressed in traditional Albanian costume, would become “the servant of public procurement”.Responsibility for deciding the winners of public tenders would be removed from government ministries in a “step-by-step” process and handled by artificial intelligence to ensure “all public spending in the tender process is 100% clear”, he said.Diella would examine every tender in which the government contracts private companies and objectively assess the merits of each, said Rama, who was re-elected in May and has previously said he sees AI as a potentially effective anti-corruption tool that would eliminate bribes, threats and conflicts of interest.Public tenders have long been a source of corruption scandals in Albania, which experts say is a hub for international gangs seeking to launder money from trafficking drugs and weapons and where graft has extended into the upper reaches of government.Albanian media praised the move as “a major transformation in the way the Albanian government conceives and exercises administrative power, introducing technology not only as a tool, but also as an active participant in governance”.skip past newsletter promotionafter newsletter promotionNot everyone was convinced, however. “In Albania, even Diella will be corrupted,” commented one Facebook user.",
+        "word_count": 330,
+        "title": "Albania puts AI-created ‘minister’ in charge of public procurement",
+        "author": "Jon Henley",
+        "description": "Edi Rama, PM, says digital assistant Diella will make Albania ‘a country where public tenders are 100% free of corruption’",
+        "publication_date": "2025-09-12T01:31:06.000Z",
+        "published_on": "The Guardian",
+        "final_url": "https://www.theguardian.com/world/2025/sep/11/albania-diella-ai-minister-public-procurement",
+        "tags": [
+          "digital",
+          "assistant",
+          "helps",
+          "people",
+          "navigate",
+          "government",
+          "services",
+          "online",
+          "virtually",
+          "created"
+        ],
+        "provenance": {
+          "body": "readability",
+          "word_count": "readability",
+          "title": "readability",
+          "author": "readability",
+          "description": "metascraper",
+          "publication_date": "metascraper",
+          "published_on": "metascraper",
+          "final_url": "metascraper",
+          "tags": "readability"
+        },
+        "providersUsed": [
+          "playwright",
+          "readability",
+          "metascraper"
+        ],
+        "notes": [],
+        "providerOutcomes": [
+          {
+            "name": "playwright",
+            "status": "ok",
+            "statusCode": 200
+          },
+          {
+            "name": "basic-http",
+            "status": "ok",
+            "statusCode": 200
+          },
+          {
+            "name": "readability",
+            "status": "ok"
+          }
+        ]
+      },
+      "redacted": false,
+      "provenance": {
+        "body": "readability",
+        "word_count": "readability",
+        "title": "readability",
+        "author": "readability",
+        "description": "metascraper",
+        "publication_date": "metascraper",
+        "published_on": "metascraper",
+        "final_url": "metascraper",
+        "tags": "readability"
+      },
+      "providersUsed": [
+        "playwright",
+        "readability",
+        "metascraper"
+      ],
+      "body": "A digital assistant that helps people navigate government services online has become the first “virtually created” AI cabinet minister and put in charge of public procurement in an attempt to cut down on corruption, the Albanian prime minister has said.Diella, which means Sun in Albanian, has been advising users on the state’s e-Albania portal since January, helping them through voice commands with the full range of bureaucratic tasks they need to perform in order to access about 95% of citizen services digitally.“Diella, the first cabinet member who is not physically present, but has been virtually created by AI”, would help make Albania “a country where public tenders are 100% free of corruption”, Edi Rama said on Thursday.Announcing the makeup of his fourth consecutive government at the ruling Socialist party conference in Tirana, Rama said Diella, who on the e-Albania portal is dressed in traditional Albanian costume, would become “the servant of public procurement”.Responsibility for deciding the winners of public tenders would be removed from government ministries in a “step-by-step” process and handled by artificial intelligence to ensure “all public spending in the tender process is 100% clear”, he said.Diella would examine every tender in which the government contracts private companies and objectively assess the merits of each, said Rama, who was re-elected in May and has previously said he sees AI as a potentially effective anti-corruption tool that would eliminate bribes, threats and conflicts of interest.Public tenders have long been a source of corruption scandals in Albania, which experts say is a hub for international gangs seeking to launder money from trafficking drugs and weapons and where graft has extended into the upper reaches of government.Albanian media praised the move as “a major transformation in the way the Albanian government conceives and exercises administrative power, introducing technology not only as a tool, but also as an active participant in governance”.skip past newsletter promotionafter newsletter promotionNot everyone was convinced, however. “In Albania, even Diella will be corrupted,” commented one Facebook user.",
+      "word_count": 330,
+      "title": "Albania puts AI-created ‘minister’ in charge of public procurement",
+      "author": "Jon Henley",
+      "description": "Edi Rama, PM, says digital assistant Diella will make Albania ‘a country where public tenders are 100% free of corruption’",
+      "publication_date": "2025-09-12T01:31:06.000Z",
+      "published_on": "The Guardian",
+      "final_url": "https://www.theguardian.com/world/2025/sep/11/albania-diella-ai-minister-public-procurement",
+      "tags": [
+        "digital",
+        "assistant",
+        "helps",
+        "people",
+        "navigate",
+        "government",
+        "services",
+        "online",
+        "virtually",
+        "created"
+      ]
+    },
+    {
+      "url": "https://nationalcenterforstatecourts.shinyapps.io/AIReadinessGuide/",
+      "confidence": {
+        "score": 79,
+        "band": "yellow",
+        "emoji": "🟡"
+      },
+      "reason": "Missing fields: description, author, publication_date | Legacy HTML parser applied for missing metadata",
+      "provider": "readability",
+      "raw": {
+        "body": "The AI Readiness for the State Courts Guide is a set of resources designed to help state courts\n        successfully integrate AI into their operations. It provides information to courts at different points on\n        the spectrum of AI maturity.\n          Using this Guide\n          \n          There are many ways to use the AI Readiness guide, and our intent is that courts can use and\n           adapt the material to suit their needs. It can be used at the state or territory level or at the local\n           court level (for example, a district, county, or courthouse). It is designed for those who have some kind\n           of role in court leadership or in AI decision making.\n          For example, one user of this Guide may be a state court administrator considering how to implement AI\n      readiness across the entire state. Another group of users may be an AI Governance Committee comprised of\n      multiple personnel from across the court system. Another user may be a Presiding Judge considering how to\n      improve AI readiness in her county or district.\n          \n            Access the AI Readiness guide here:\n            \n            \n              \n              Full Report\n            \n          \n          \n          \n            Access the AI Governance Tool here\n            \n            \n          \n          \n          AI Readiness Assessment Tool\n          If your court is not sure exactly where to begin, you can use the AI Readiness Assessment Tool to receive a\n        tailored recommendation for prioritizing next steps and using the Guide effectively.\n          Please begin by answering the first question below:\n          \n              Has your court already implemented any AI projects?",
+        "word_count": 235,
+        "title": "AIReadinessGuide",
+        "final_url": "https://nationalcenterforstatecourts.shinyapps.io/AIReadinessGuide/",
+        "tags": [
+          "AI",
+          "Readiness",
+          "State",
+          "Courts",
+          "Guide",
+          "set",
+          "resources",
+          "designed",
+          "state",
+          "courts"
+        ],
+        "published_on": "nationalcenterforstatecourts.shinyapps.io",
+        "provenance": {
+          "body": "readability",
+          "word_count": "readability",
+          "title": "readability",
+          "final_url": "metascraper",
+          "tags": "readability",
+          "published_on": "legacy-parser"
+        },
+        "providersUsed": [
+          "playwright",
+          "readability",
+          "metascraper",
+          "legacy-parser"
+        ],
+        "notes": [
+          "Legacy HTML parser applied for missing metadata"
+        ],
+        "providerOutcomes": [
+          {
+            "name": "playwright",
+            "status": "ok",
+            "statusCode": 200
+          },
+          {
+            "name": "basic-http",
+            "status": "ok",
+            "statusCode": 200
+          },
+          {
+            "name": "readability",
+            "status": "ok"
+          }
+        ]
+      },
+      "redacted": false,
+      "provenance": {
+        "body": "readability",
+        "word_count": "readability",
+        "title": "readability",
+        "final_url": "metascraper",
+        "tags": "readability",
+        "published_on": "legacy-parser"
+      },
+      "providersUsed": [
+        "playwright",
+        "readability",
+        "metascraper",
+        "legacy-parser"
+      ],
+      "body": "The AI Readiness for the State Courts Guide is a set of resources designed to help state courts\n        successfully integrate AI into their operations. It provides information to courts at different points on\n        the spectrum of AI maturity.\n          Using this Guide\n          \n          There are many ways to use the AI Readiness guide, and our intent is that courts can use and\n           adapt the material to suit their needs. It can be used at the state or territory level or at the local\n           court level (for example, a district, county, or courthouse). It is designed for those who have some kind\n           of role in court leadership or in AI decision making.\n          For example, one user of this Guide may be a state court administrator considering how to implement AI\n      readiness across the entire state. Another group of users may be an AI Governance Committee comprised of\n      multiple personnel from across the court system. Another user may be a Presiding Judge considering how to\n      improve AI readiness in her county or district.\n          \n            Access the AI Readiness guide here:\n            \n            \n              \n              Full Report\n            \n          \n          \n          \n            Access the AI Governance Tool here\n            \n            \n          \n          \n          AI Readiness Assessment Tool\n          If your court is not sure exactly where to begin, you can use the AI Readiness Assessment Tool to receive a\n        tailored recommendation for prioritizing next steps and using the Guide effectively.\n          Please begin by answering the first question below:\n          \n              Has your court already implemented any AI projects?",
+      "word_count": 235,
+      "title": "AIReadinessGuide",
+      "final_url": "https://nationalcenterforstatecourts.shinyapps.io/AIReadinessGuide/",
+      "tags": [
+        "AI",
+        "Readiness",
+        "State",
+        "Courts",
+        "Guide",
+        "set",
+        "resources",
+        "designed",
+        "state",
+        "courts"
+      ],
+      "published_on": "nationalcenterforstatecourts.shinyapps.io"
+    },
+    {
+      "url": "https://www.aspeninstitute.org/blog-posts/worker-power-in-the-age-of-ai-monopolies-why-we-need-structural-solutions-now/",
+      "confidence": {
+        "score": 95,
+        "band": "green",
+        "emoji": "🟢"
+      },
+      "reason": "All key fields captured.",
+      "provider": "readability",
+      "raw": {
+        "body": "Ten years ago, the Roosevelt Institute published “Technology and the Future of Work: The State of the Debate.“\n\n\n\nWe got some important things right—particularly our insight that technology was “underlying and enabling a vast reorganization of both corporations and the overall economy” and our focus on how technological change was reducing “both the political and workplace power of American workers.” But we also got crucial things wrong. We anticipated gradual change over decades, not the AI revolution marked by market concentration that arrived in just a few years. We worried about platform workers but didn’t foresee how a handful of companies would control the foundational infrastructure of AI itself. Most importantly, while we correctly identified the need to put workers at the center of the story, we failed to honestly and pragmatically assess the challenges worker-centered solutions would face against monopoly-scale technological disruption.\n\n\n\nWe have come a long way in making sure workers are a part of the conversation about how AI is deployed in their workplaces. But while we talk, tech monopolies are consolidating the power to make development and decisions unilaterally. If we are to ensure democratic development and deployment of new AI technology in a way that leads to shared economic prosperity, our solutions have to be bolder, and they have to be now.\n\n\n\n\n\n\n\nThe Scale of AI Concentration\n\n\n\nThe barriers to entry for frontier AI development have become prohibitively high for all but the most well-funded organizations, creating an unprecedented concentration of technological, economic, and political power. It is no surprise that the biggest AI titans of the 2020s are the same big tech companies we allowed to concentrate over the 2010s (with the notable exception of OpenAI, which has had the aid of Microsoft). This is in large part because anyone who hasn’t been a winner in the data surveillance economy up to now has a hard time generating the data feedback loops necessary to compete on AI quality. AI systems also exhibit powerful data network effects, creating a self-reinforcing cycle where companies with the most users and the most access to those users’ data develop the best AI systems, which attract even more users. Google, for example, was touting over a year ago 1 billion uses of its AI overview function per month. \n\n\n\nIn addition to network effects, initial and ongoing costs have been high enough to be all but prohibitive for many would-be new entrants. Take training costs: while the original Transformer model cost only $930 to train in 2017, some estimates suggest that future models may cost over $1 billion to train by 2027. While these costs might be on their way down, the advantage of being the first has already been achieved. Or take the talent competition: Meta is reportedly offering “$100 million signing bonuses” and total compensation packages reaching “$300 million over four years” to recruit top OpenAI researchers, with OpenAI itself paying top researchers over $10 million annually. Only companies with massive cash flows can afford to compete. And now data center infrastructure costs are skyrocketing.\n\n\n\nWe have a narrow window before AI gains become permanently entrenched—once AI systems are deployed and business models are established, they become harder to change. At the same time, our best tools move slowly. Traditional regulation takes time, and building union density takes decades. Tech monopolies are still open to structural intervention, but this window is closing fast.\n\n\n\n\n\n\n\nFirst Side of the Coin: Corporate Regulation\n\n\n\nAs SEIU President April Verrett says in her contribution to this collection, “every day, millions of American workers play by rules they never wrote.” We need corporate regulatory solutions that inject worker voice into the managerial decisions of AI companies. For example, we could mandate worker representation on boards of companies above certain AI compute thresholds or data-processing scales. Unlike external regulation, board members can influence AI deployment decisions as they happen. Tech workers understand industry-specific AI risks that generalist regulators may miss, and board representation creates internal advocacy for workers affected by AI decisions. Such regulation has been proposed: Senator Elizabeth Warren’s Accountable Capitalism Act would require any company with more than $1 billion in revenue to obtain a federal charter, which would obligate “company directors to consider the interests of all corporate stakeholders – including employees, customers, shareholders, and the communities in which the company operates” and “ensure that no fewer than 40% of its directors are selected by the corporation’s employees.” For AI companies specifically, this would mean tech giants like Google, Meta, and OpenAI would need federal charters requiring them not only to put workers on the board but also to consider worker, community, and societal impacts of AI development—not just shareholder profits.\n\n\n\nIn addition to putting workers in decision-making seats, we should consider other reforms that would mitigate some of the concerning incentives of their revenue models and increase broad, democratic accountability for tech giants. For example, we could use ex ante antimonopoly tools like structural separation—which limit companies from competing in adjacent markets in order to prevent self-preferencing—to choke off avenues for increasing power grabs. Or we could use the tax code, imposing things like a digital ad tax to disincentivize the continuous collection and use of data as core to the revenue model for these companies. Interventions like these, while not directly related to worker power, help curb the power consolidation of Big Tech such that the rest of us can have more of a say in how AI is developed and where and how it’s deployed. \n\n\n\n\n\n\n\nSecond Side of the Coin: Worker Power Through Sectoral Bargaining\n\n\n\nWe need to be honest about the enormity of the task of building worker power capable of countering the employer power arranged behind AI deployment. Industry-wide bargaining is a key mechanism to match the scale and speed of AI transformation. AI impacts entire industries, not just individual workplaces, so sectoral bargaining prevents race-to-the-bottom dynamics where individual employers are undercut by competitors ignoring worker protections. It also aggregates worker knowledge across companies to understand industry-wide AI risks and can coordinate with regulatory agencies on industry-specific AI safety standards. For example: in health care, standards for AI diagnostic tools and patient data use; in transportation, autonomous vehicle deployment timelines and safety standards; in finance, AI lending algorithms and job displacement schedules.\n\n\n\nIf the moral imperative for workers to have a seat at the table isn’t enough justification, then let’s look at the business case. A recent MIT study found that 95% of business AI deployment pilots are failing, and a McKinsey study found that 80% of companies attempting to deploy AI are finding no bottom line impacts. S&P Global found that 42% of companies starting pilots have abandoned them, up from 17% last year. So far, AI is not producing the returns on productivity that have been promised. If we want this new technological frontier to generate economic returns at all, we have to have workers at the table to help understand how to make it so.\n\n\n\nTech workers are uniquely positioned to wield countervailing power given their placement at the very companies doing the development and their technical knowledge and expertise. They understand how AI systems actually work and can identify risks that external regulators might miss. It is therefore urgent to focus time and resources on organizing tech workers in this cause.\n\n\n\n\n\n\n\nThe Choice Ahead\n\n\n\nThe kinds of reforms we need are enormous, and the current political will is disturbingly low. But change happens because we have solutions ready when political windows open. The AI anxiety of millions of workers is building as AI disruption accelerates, and we will need to be ready with solutions that fit the scale of the problem. \n\n\n\nWorker power in the AI age requires structural intervention at the scale of the transformation itself. We need both sides of the coin: corporate regulation that puts workers and the public in the driver’s seat, and sectoral bargaining—especially in the tech sector—that gives workers industry-wide influence over how AI is deployed. This isn’t about slowing innovation. It’s about ensuring innovation serves workers and communities, not just shareholders and executives.\n\n\n\nA corporate-captured future is not inevitable. Our choices — in business, in policy, and in organizing — will shape whether AI becomes a tool for shared prosperity or further concentration of power. We’ve built countervailing power against concentrated industries before. The question is whether we’ll act with the urgency this moment demands, or whether we’ll let another technological revolution pass us by. The window for structural change is open, but it won’t stay that way forever.",
+        "word_count": 1423,
+        "title": "Worker Power in the Age of AI Monopolies: Why We Need Structural Solutions Now",
+        "author": "Nora Heffernan",
+        "description": "Elizabeth Wilkins",
+        "publication_date": "2025-09-18T14:29:08.000Z",
+        "published_on": "Aspen Institute",
+        "final_url": "https://www.aspeninstitute.org/blog-posts/worker-power-in-the-age-of-ai-monopolies-why-we-need-structural-solutions-now/",
+        "tags": [
+          "Ten",
+          "years",
+          "ago",
+          "Roosevelt",
+          "Institute",
+          "published",
+          "Technology",
+          "Future",
+          "Work",
+          "State"
+        ],
+        "provenance": {
+          "body": "readability",
+          "word_count": "readability",
+          "title": "readability",
+          "author": "readability",
+          "description": "metascraper",
+          "publication_date": "metascraper",
+          "published_on": "metascraper",
+          "final_url": "metascraper",
+          "tags": "readability"
+        },
+        "providersUsed": [
+          "playwright",
+          "readability",
+          "metascraper"
+        ],
+        "notes": [],
+        "providerOutcomes": [
+          {
+            "name": "playwright",
+            "status": "ok",
+            "statusCode": 200
+          },
+          {
+            "name": "basic-http",
+            "status": "ok",
+            "statusCode": 200
+          },
+          {
+            "name": "readability",
+            "status": "ok"
+          }
+        ]
+      },
+      "redacted": false,
+      "provenance": {
+        "body": "readability",
+        "word_count": "readability",
+        "title": "readability",
+        "author": "readability",
+        "description": "metascraper",
+        "publication_date": "metascraper",
+        "published_on": "metascraper",
+        "final_url": "metascraper",
+        "tags": "readability"
+      },
+      "providersUsed": [
+        "playwright",
+        "readability",
+        "metascraper"
+      ],
+      "body": "Ten years ago, the Roosevelt Institute published “Technology and the Future of Work: The State of the Debate.“\n\n\n\nWe got some important things right—particularly our insight that technology was “underlying and enabling a vast reorganization of both corporations and the overall economy” and our focus on how technological change was reducing “both the political and workplace power of American workers.” But we also got crucial things wrong. We anticipated gradual change over decades, not the AI revolution marked by market concentration that arrived in just a few years. We worried about platform workers but didn’t foresee how a handful of companies would control the foundational infrastructure of AI itself. Most importantly, while we correctly identified the need to put workers at the center of the story, we failed to honestly and pragmatically assess the challenges worker-centered solutions would face against monopoly-scale technological disruption.\n\n\n\nWe have come a long way in making sure workers are a part of the conversation about how AI is deployed in their workplaces. But while we talk, tech monopolies are consolidating the power to make development and decisions unilaterally. If we are to ensure democratic development and deployment of new AI technology in a way that leads to shared economic prosperity, our solutions have to be bolder, and they have to be now.\n\n\n\n\n\n\n\nThe Scale of AI Concentration\n\n\n\nThe barriers to entry for frontier AI development have become prohibitively high for all but the most well-funded organizations, creating an unprecedented concentration of technological, economic, and political power. It is no surprise that the biggest AI titans of the 2020s are the same big tech companies we allowed to concentrate over the 2010s (with the notable exception of OpenAI, which has had the aid of Microsoft). This is in large part because anyone who hasn’t been a winner in the data surveillance economy up to now has a hard time generating the data feedback loops necessary to compete on AI quality. AI systems also exhibit powerful data network effects, creating a self-reinforcing cycle where companies with the most users and the most access to those users’ data develop the best AI systems, which attract even more users. Google, for example, was touting over a year ago 1 billion uses of its AI overview function per month. \n\n\n\nIn addition to network effects, initial and ongoing costs have been high enough to be all but prohibitive for many would-be new entrants. Take training costs: while the original Transformer model cost only $930 to train in 2017, some estimates suggest that future models may cost over $1 billion to train by 2027. While these costs might be on their way down, the advantage of being the first has already been achieved. Or take the talent competition: Meta is reportedly offering “$100 million signing bonuses” and total compensation packages reaching “$300 million over four years” to recruit top OpenAI researchers, with OpenAI itself paying top researchers over $10 million annually. Only companies with massive cash flows can afford to compete. And now data center infrastructure costs are skyrocketing.\n\n\n\nWe have a narrow window before AI gains become permanently entrenched—once AI systems are deployed and business models are established, they become harder to change. At the same time, our best tools move slowly. Traditional regulation takes time, and building union density takes decades. Tech monopolies are still open to structural intervention, but this window is closing fast.\n\n\n\n\n\n\n\nFirst Side of the Coin: Corporate Regulation\n\n\n\nAs SEIU President April Verrett says in her contribution to this collection, “every day, millions of American workers play by rules they never wrote.” We need corporate regulatory solutions that inject worker voice into the managerial decisions of AI companies. For example, we could mandate worker representation on boards of companies above certain AI compute thresholds or data-processing scales. Unlike external regulation, board members can influence AI deployment decisions as they happen. Tech workers understand industry-specific AI risks that generalist regulators may miss, and board representation creates internal advocacy for workers affected by AI decisions. Such regulation has been proposed: Senator Elizabeth Warren’s Accountable Capitalism Act would require any company with more than $1 billion in revenue to obtain a federal charter, which would obligate “company directors to consider the interests of all corporate stakeholders – including employees, customers, shareholders, and the communities in which the company operates” and “ensure that no fewer than 40% of its directors are selected by the corporation’s employees.” For AI companies specifically, this would mean tech giants like Google, Meta, and OpenAI would need federal charters requiring them not only to put workers on the board but also to consider worker, community, and societal impacts of AI development—not just shareholder profits.\n\n\n\nIn addition to putting workers in decision-making seats, we should consider other reforms that would mitigate some of the concerning incentives of their revenue models and increase broad, democratic accountability for tech giants. For example, we could use ex ante antimonopoly tools like structural separation—which limit companies from competing in adjacent markets in order to prevent self-preferencing—to choke off avenues for increasing power grabs. Or we could use the tax code, imposing things like a digital ad tax to disincentivize the continuous collection and use of data as core to the revenue model for these companies. Interventions like these, while not directly related to worker power, help curb the power consolidation of Big Tech such that the rest of us can have more of a say in how AI is developed and where and how it’s deployed. \n\n\n\n\n\n\n\nSecond Side of the Coin: Worker Power Through Sectoral Bargaining\n\n\n\nWe need to be honest about the enormity of the task of building worker power capable of countering the employer power arranged behind AI deployment. Industry-wide bargaining is a key mechanism to match the scale and speed of AI transformation. AI impacts entire industries, not just individual workplaces, so sectoral bargaining prevents race-to-the-bottom dynamics where individual employers are undercut by competitors ignoring worker protections. It also aggregates worker knowledge across companies to understand industry-wide AI risks and can coordinate with regulatory agencies on industry-specific AI safety standards. For example: in health care, standards for AI diagnostic tools and patient data use; in transportation, autonomous vehicle deployment timelines and safety standards; in finance, AI lending algorithms and job displacement schedules.\n\n\n\nIf the moral imperative for workers to have a seat at the table isn’t enough justification, then let’s look at the business case. A recent MIT study found that 95% of business AI deployment pilots are failing, and a McKinsey study found that 80% of companies attempting to deploy AI are finding no bottom line impacts. S&P Global found that 42% of companies starting pilots have abandoned them, up from 17% last year. So far, AI is not producing the returns on productivity that have been promised. If we want this new technological frontier to generate economic returns at all, we have to have workers at the table to help understand how to make it so.\n\n\n\nTech workers are uniquely positioned to wield countervailing power given their placement at the very companies doing the development and their technical knowledge and expertise. They understand how AI systems actually work and can identify risks that external regulators might miss. It is therefore urgent to focus time and resources on organizing tech workers in this cause.\n\n\n\n\n\n\n\nThe Choice Ahead\n\n\n\nThe kinds of reforms we need are enormous, and the current political will is disturbingly low. But change happens because we have solutions ready when political windows open. The AI anxiety of millions of workers is building as AI disruption accelerates, and we will need to be ready with solutions that fit the scale of the problem. \n\n\n\nWorker power in the AI age requires structural intervention at the scale of the transformation itself. We need both sides of the coin: corporate regulation that puts workers and the public in the driver’s seat, and sectoral bargaining—especially in the tech sector—that gives workers industry-wide influence over how AI is deployed. This isn’t about slowing innovation. It’s about ensuring innovation serves workers and communities, not just shareholders and executives.\n\n\n\nA corporate-captured future is not inevitable. Our choices — in business, in policy, and in organizing — will shape whether AI becomes a tool for shared prosperity or further concentration of power. We’ve built countervailing power against concentrated industries before. The question is whether we’ll act with the urgency this moment demands, or whether we’ll let another technological revolution pass us by. The window for structural change is open, but it won’t stay that way forever.",
+      "word_count": 1423,
+      "title": "Worker Power in the Age of AI Monopolies: Why We Need Structural Solutions Now",
+      "author": "Nora Heffernan",
+      "description": "Elizabeth Wilkins",
+      "publication_date": "2025-09-18T14:29:08.000Z",
+      "published_on": "Aspen Institute",
+      "final_url": "https://www.aspeninstitute.org/blog-posts/worker-power-in-the-age-of-ai-monopolies-why-we-need-structural-solutions-now/",
+      "tags": [
+        "Ten",
+        "years",
+        "ago",
+        "Roosevelt",
+        "Institute",
+        "published",
+        "Technology",
+        "Future",
+        "Work",
+        "State"
+      ]
+    },
+    {
+      "url": "https://www.cogitatiopress.com/politicsandgovernance/article/view/10468",
+      "confidence": {
+        "score": 95,
+        "band": "green",
+        "emoji": "🟢"
+      },
+      "reason": "Missing fields: publication_date",
+      "provider": "readability",
+      "raw": {
+        "body": "Article |  Open Access\n\t| Ahead of Print | Last Modified: 10 September 2025\t\n\t\n\t    \n              \n          \n            Perle Petit\n          \n                      \n              imec‐SMIT, Vrije Universiteit Brussel, Belgium\n            \n                  \n              \n          \n            Alvaro Oleart\n          \n                      \n              Department of Political Science, Université libre de Bruxelles, Belgium / Institute for European Studies, Université libre de Bruxelles, Belgium\n            \n                  \n          \n  \t\n\t\n\t\t\t\t\t\n\t\t\t\n\t  \n\t\t\t\n\t\n\t\t\n\t\t\t\n\t\t\t\tViews:\n\t\t\t\n\t\t\t\n\t\t\t\t724\n\t\t\t\t\n\t\t\t\n\t\t\t|\n\t\t\t\n\t\t\t\tDownloads:\n\t\t\t\n\t\t\t\n\t\t\t\t558\n\t\t\t\t\n\t\t\t\n\t\t\n\t\n\t\t\n\t\t\t\n  \n\t  \t\n  \n  Abstract:  Over the last decade, the use of deliberative mini-publics as a democratic innovation to complement policymaking has flourished. The EU is no exception to this trend, holding large-scale transnational exercises such as the Conference on the Future of Europe (CoFoE) and the European Citizens’ Panels. Digital technology has emerged as a topic in this type of participatory exercise, conducted alongside prolific public policy activity by the EU institutions in this domain. In this article, we ask: How did post-CoFoE citizen panels on EU tech policy play out? We examine the 2023 European Citizens’ Panel on Virtual Worlds, organised by the European Commission, and the 2024 Citizen Panel on Artificial Intelligence organised by the Belgian Presidency of the Council of the EU. Through participant observation and an interpretivist framework, we argue that while the panels were presented as giving voice to “everyday citizens” and improving democratic legitimacy in policymaking, in practice, they served to build support for current policy that replicates the interests of big tech. Consequently, the outcomes of the panels were largely in line with recent EU public policy on further investment into emerging digital technology and public-private partnerships. We suggest that deliberative mini-publics that seek to influence EU policymaking currently (a) constitute a form of citizenwashing by aligning participant input by design with dominant private, economic, and political interests and (b) demonstrate a strategic effort to institutionalise this form of exercise as a public engagement and legitimacy-building activity in EU-level policymaking.\n    \n\t\n\t    Keywords:  artificial intelligence; big tech; citizenwashing; deliberative democracy; EU policy; European citizens’ panel; European Union; mini‐publics; technology; virtual worlds\n    \n\t  \n  \n\t\t\tPublished:  \n\t\t\tAhead of Print \t\t\t\n\t\t\n\t  \n  \n\t\t\t\t\t\t\t\t\n\t\n\n\t\n\t\t\t\n\t\t\n\t© Perle Petit, Alvaro Oleart. This is an open access article distributed under the terms of the Creative Commons Attribution 4.0 license (http://creativecommons.org/licenses/by/4.0), which permits any use, distribution, and reproduction of the work without further permission provided the original author(s) and source are credited.",
+        "word_count": 358,
+        "title": "Citizenwashing EU Tech Policy: EU Deliberative Mini‐Publics on Virtual Worlds and Artificial Intelligence",
+        "author": "Perle Petit, Alvaro Oleart",
+        "description": "Perle Petit, Alvaro Oleart",
+        "published_on": "Cogitatio Logo",
+        "final_url": "https://www.cogitatiopress.com/politicsandgovernance/article/view/10468",
+        "tags": [
+          "Article",
+          "|",
+          "Open",
+          "Access",
+          "Ahead",
+          "Print",
+          "Modified",
+          "September",
+          "Perle",
+          "Petit"
+        ],
+        "provenance": {
+          "body": "readability",
+          "word_count": "readability",
+          "title": "readability",
+          "author": "readability",
+          "description": "metascraper",
+          "published_on": "metascraper",
+          "final_url": "metascraper",
+          "tags": "readability"
+        },
+        "providersUsed": [
+          "playwright",
+          "readability",
+          "metascraper"
+        ],
+        "notes": [],
+        "providerOutcomes": [
+          {
+            "name": "playwright",
+            "status": "ok",
+            "statusCode": 200
+          },
+          {
+            "name": "basic-http",
+            "status": "ok",
+            "statusCode": 200
+          },
+          {
+            "name": "readability",
+            "status": "ok"
+          }
+        ]
+      },
+      "redacted": false,
+      "provenance": {
+        "body": "readability",
+        "word_count": "readability",
+        "title": "readability",
+        "author": "readability",
+        "description": "metascraper",
+        "published_on": "metascraper",
+        "final_url": "metascraper",
+        "tags": "readability"
+      },
+      "providersUsed": [
+        "playwright",
+        "readability",
+        "metascraper"
+      ],
+      "body": "Article |  Open Access\n\t| Ahead of Print | Last Modified: 10 September 2025\t\n\t\n\t    \n              \n          \n            Perle Petit\n          \n                      \n              imec‐SMIT, Vrije Universiteit Brussel, Belgium\n            \n                  \n              \n          \n            Alvaro Oleart\n          \n                      \n              Department of Political Science, Université libre de Bruxelles, Belgium / Institute for European Studies, Université libre de Bruxelles, Belgium\n            \n                  \n          \n  \t\n\t\n\t\t\t\t\t\n\t\t\t\n\t  \n\t\t\t\n\t\n\t\t\n\t\t\t\n\t\t\t\tViews:\n\t\t\t\n\t\t\t\n\t\t\t\t724\n\t\t\t\t\n\t\t\t\n\t\t\t|\n\t\t\t\n\t\t\t\tDownloads:\n\t\t\t\n\t\t\t\n\t\t\t\t558\n\t\t\t\t\n\t\t\t\n\t\t\n\t\n\t\t\n\t\t\t\n  \n\t  \t\n  \n  Abstract:  Over the last decade, the use of deliberative mini-publics as a democratic innovation to complement policymaking has flourished. The EU is no exception to this trend, holding large-scale transnational exercises such as the Conference on the Future of Europe (CoFoE) and the European Citizens’ Panels. Digital technology has emerged as a topic in this type of participatory exercise, conducted alongside prolific public policy activity by the EU institutions in this domain. In this article, we ask: How did post-CoFoE citizen panels on EU tech policy play out? We examine the 2023 European Citizens’ Panel on Virtual Worlds, organised by the European Commission, and the 2024 Citizen Panel on Artificial Intelligence organised by the Belgian Presidency of the Council of the EU. Through participant observation and an interpretivist framework, we argue that while the panels were presented as giving voice to “everyday citizens” and improving democratic legitimacy in policymaking, in practice, they served to build support for current policy that replicates the interests of big tech. Consequently, the outcomes of the panels were largely in line with recent EU public policy on further investment into emerging digital technology and public-private partnerships. We suggest that deliberative mini-publics that seek to influence EU policymaking currently (a) constitute a form of citizenwashing by aligning participant input by design with dominant private, economic, and political interests and (b) demonstrate a strategic effort to institutionalise this form of exercise as a public engagement and legitimacy-building activity in EU-level policymaking.\n    \n\t\n\t    Keywords:  artificial intelligence; big tech; citizenwashing; deliberative democracy; EU policy; European citizens’ panel; European Union; mini‐publics; technology; virtual worlds\n    \n\t  \n  \n\t\t\tPublished:  \n\t\t\tAhead of Print \t\t\t\n\t\t\n\t  \n  \n\t\t\t\t\t\t\t\t\n\t\n\n\t\n\t\t\t\n\t\t\n\t© Perle Petit, Alvaro Oleart. This is an open access article distributed under the terms of the Creative Commons Attribution 4.0 license (http://creativecommons.org/licenses/by/4.0), which permits any use, distribution, and reproduction of the work without further permission provided the original author(s) and source are credited.",
+      "word_count": 358,
+      "title": "Citizenwashing EU Tech Policy: EU Deliberative Mini‐Publics on Virtual Worlds and Artificial Intelligence",
+      "author": "Perle Petit, Alvaro Oleart",
+      "description": "Perle Petit, Alvaro Oleart",
+      "published_on": "Cogitatio Logo",
+      "final_url": "https://www.cogitatiopress.com/politicsandgovernance/article/view/10468",
+      "tags": [
+        "Article",
+        "|",
+        "Open",
+        "Access",
+        "Ahead",
+        "Print",
+        "Modified",
+        "September",
+        "Perle",
+        "Petit"
+      ]
+    },
+    {
+      "url": "https://www.peoplepowered.org/digital-guide-home",
+      "confidence": {
+        "score": 95,
+        "band": "green",
+        "emoji": "🟢"
+      },
+      "reason": "Missing fields: author | Article body short or missing (Readability)",
+      "provider": "readability",
+      "raw": {
+        "body": "Updated: September 2025Over the past 15 years, governments and other institutions have leveraged digital platforms to engage citizens, residents, and constituents in decision-making. Platform developers, open source contributors, consultants and program administrators now comprise an ecosystem that invites the public to take on a greater role. They are increasingly digitizing existing programs like participatory budgeting, and envisioning entirely novel engagement patterns made possible by AI.Around the world, entrepreneurs and civic hackers have developed a growing array of digital participation platforms to serve growing demand for people power. These tools help administrators within all levels of government, plus civil society organizations and other institutions, engage constituents. Collectively, they address almost any participatory method imaginable, including support for digitizing fully offline engagement methods. If you are looking to engage your community, or are interested in how digital tools can strengthen community engagement, this guide is for you. It explains what digital participation platforms are and walks you through how to choose, set up, and run them.Introduction continued…Download the guide, or browse the sections below.",
+        "word_count": 172,
+        "title": "Introduction to the Guide to Digital Participation Platforms — People Powered",
+        "description": "If you are looking to engage your community through a digital platform, this guide is for you. It explains what they are and shows you how to choose, set up, and run them.",
+        "publication_date": "2025-08-31T19:00:00.000Z",
+        "published_on": "People Powered",
+        "final_url": "https://www.peoplepowered.org/digital-guide-home",
+        "tags": [
+          "Updated",
+          "September",
+          "2025Over",
+          "past",
+          "years",
+          "governments",
+          "institutions",
+          "leveraged",
+          "digital",
+          "platforms"
+        ],
+        "provenance": {
+          "body": "readability",
+          "word_count": "readability",
+          "title": "readability",
+          "description": "metascraper",
+          "publication_date": "metascraper",
+          "published_on": "metascraper",
+          "final_url": "metascraper",
+          "tags": "readability"
+        },
+        "providersUsed": [
+          "playwright",
+          "readability",
+          "metascraper"
+        ],
+        "notes": [
+          "Article body short or missing (Readability)"
+        ],
+        "providerOutcomes": [
+          {
+            "name": "playwright",
+            "status": "ok",
+            "statusCode": 200
+          },
+          {
+            "name": "basic-http",
+            "status": "ok",
+            "statusCode": 200
+          },
+          {
+            "name": "readability",
+            "status": "ok"
+          }
+        ]
+      },
+      "redacted": false,
+      "provenance": {
+        "body": "readability",
+        "word_count": "readability",
+        "title": "readability",
+        "description": "metascraper",
+        "publication_date": "metascraper",
+        "published_on": "metascraper",
+        "final_url": "metascraper",
+        "tags": "readability"
+      },
+      "providersUsed": [
+        "playwright",
+        "readability",
+        "metascraper"
+      ],
+      "body": "Updated: September 2025Over the past 15 years, governments and other institutions have leveraged digital platforms to engage citizens, residents, and constituents in decision-making. Platform developers, open source contributors, consultants and program administrators now comprise an ecosystem that invites the public to take on a greater role. They are increasingly digitizing existing programs like participatory budgeting, and envisioning entirely novel engagement patterns made possible by AI.Around the world, entrepreneurs and civic hackers have developed a growing array of digital participation platforms to serve growing demand for people power. These tools help administrators within all levels of government, plus civil society organizations and other institutions, engage constituents. Collectively, they address almost any participatory method imaginable, including support for digitizing fully offline engagement methods. If you are looking to engage your community, or are interested in how digital tools can strengthen community engagement, this guide is for you. It explains what digital participation platforms are and walks you through how to choose, set up, and run them.Introduction continued…Download the guide, or browse the sections below.",
+      "word_count": 172,
+      "title": "Introduction to the Guide to Digital Participation Platforms — People Powered",
+      "description": "If you are looking to engage your community through a digital platform, this guide is for you. It explains what they are and shows you how to choose, set up, and run them.",
+      "publication_date": "2025-08-31T19:00:00.000Z",
+      "published_on": "People Powered",
+      "final_url": "https://www.peoplepowered.org/digital-guide-home",
+      "tags": [
+        "Updated",
+        "September",
+        "2025Over",
+        "past",
+        "years",
+        "governments",
+        "institutions",
+        "leveraged",
+        "digital",
+        "platforms"
+      ]
+    },
+    {
+      "url": "https://rebootdemocracy.ai/blog/public-engagement-matters-but-governments-need-to-learn-to-listen-better-and-faster",
+      "confidence": {
+        "score": 95,
+        "band": "green",
+        "emoji": "🟢"
+      },
+      "reason": "All key fields captured.",
+      "provider": "readability",
+      "raw": {
+        "body": "Public engagement requires more than just amplifying citizen voice. The digital democracy movement of the 1990s promised that if everyone could speak up, then meaningful democratic engagement would naturally follow. But as Beth Simone Noveck and Danielle Allen explored in their recent workshop launching the Reboot Democracy: Designing Democratic Engagement for the AI Era series (opens in new window), real public engagement requires infrastructure for both listening to, and acting on, public input.\nThis insight cuts to the heart of why 25 years of \"e-democracy\" experiments haven't transformed governance the way we hoped. As Noveck emphasized throughout the workshop discussion, we ignored the equally important challenge of listening. We built tools for talking, not tools for hearing what people actually had to say.\nWhy Democracy's Technology Stack is Broken\nPolitical philosopher Danielle Allen offered a provocative reframe during the conversation: democracy itself is a technology. It was \"discovered in antiquity, disappeared, then rediscovered in the 18th century when people glued the idea of democracy together with representation.\"\nBut here's the problem: 18th-century technology was designed for radically different conditions. It assumed slow information flows fragmented by geographic distance. It was built for a world where circulating knowledge beyond official institutions was genuinely difficult.\nThose conditions have vanished. The result is what Allen calls a crisis in the “spinal cord” of democracy—with vertebrae that connect citizen’s voice to decision-making to implementation. Instead of a functioning backbone, we have three disconnected pieces that rarely talk to each other.\n\nIf we want to upgrade democracy for the 21st century, Allen argued, we need to strengthen all three vertebrae. Technology—and AI in particular—can help us build better infrastructure for each area. But the real opportunity lies in connecting these enhanced participation processes to decision-makers who can act on what they learn, and to implementation systems that can deliver results people can see.\nThere's another design flaw we inherited from the web era. Democracy is fundamentally a place-based technology—that's why we have districts, wards, counties, congressional boundaries. But in the 1990s, we saw digital tools as explicitly not place-based. We were building for a borderless world, which meant our democratic innovations often floated free from the geographic communities where governance actually happens.\nThe AI Opportunity: Beyond Better Megaphones\nBut what if we could build tools for listening, not just talking? Recent examples  demonstrate strong potential for improving public engagement. In Bowling Green, Kentucky (opens in new window), city leaders used Polis and Google's Jigsaw Sensemaker to develop the city’s 25-year plan. Instead of the usual town halls that attract the same dozen vocal residents, they engaged thousands of people, identified minority perspectives that would have been drowned out, and discovered points of consensus that weren't previously visible. The Engaged California (opens in new window) platform is taking a different approach, beginning with the issue of LA wildfire recovery, where citizens are providing input on resource allocation and rebuilding plans that will feed into state-level policy decisions\nThis points to what Noveck has coined \"combinatorial democracy,\" instead of the old approach where resource constraints forced us to pick one method off the menu—either a deliberative dialogue OR an expert consultation OR a public survey—AI tools are making it possible to knit together multiple forms of engagement. As Noveck explained in the workshop, we no longer have to choose between different approaches to participation; we can combine them strategically.\nNew Jersey's recent AI and workforce task force (opens in new window) demonstrated this approach in practice. The team could simultaneously ask thousands of people about the problems they were experiencing, run deliberative dialogues with representative citizen samples, and consult domain experts—all feeding into a single decision-making process. The traditional choice between legitimacy and expertise, between scale and depth, was no longer necessary.\nFrom the Margins to the Mainstream\nAllen made a crucial point about how institutional change actually happens: \"transformation often moves from the margins to the center.\" The innovators are rarely the people at the center of power—they're often those facing crisis, those with bandwidth to experiment, those who need something different because the status quo isn't working.\nIn the upcoming workshop sessions, we’ll continue to learn from these experiments. Claudius Lieven  will share how they built the DIPAS platform for citizen engagement (opens in new window) in urban planning—starting locally but now deployed in nine different European cities. The Belgian company Go Vocal  (opens in new window)will share their open-source platform which has worked with 500 different communities. We'll also hear from places like Copenhagen and Vienna, which are pioneering new ways to combine online and offline engagement that actually connects to municipal decision-making. \nWhat's different about this moment is the shift from abstract theory to nitty-gritty practice. Because the real barrier isn't technological anymore. We have the tools. The barrier is knowing how to use them in ways that connect citizen voices to institutional power.\nThe Infrastructure Challenge\nMultiple workshop participants raised concerns about depending on private, unaccountable platforms, with the potential for CEOs who might change the rules on a whim. Others worried about AI systems amplifying existing biases rather than correcting them.\nThese are legitimate concerns that require ongoing attention. The communities using these tools—government agencies, civic organizations, and citizen groups—need to actively shape how AI platforms are developed and deployed for democratic purposes. This means advocating for transparency, pushing for algorithmic accountability, and demanding that platforms serve democratic values rather than just commercial interests.\nThis is why we need more experimentation across different tools and approaches. More use cases, more communities trying different methods, more practitioners sharing what works and what doesn't. The goal isn't to find the perfect platform, but to build collective knowledge about how to use these technologies responsibly for democratic engagement.\nMaking Participation Routine\nThe ultimate goal remains what we outlined in our first post (opens in new window): moving from episodic engagement to systematic democratic governance. Instead of citizen participation as special events, we want it integrated into institutional practice, as routine as budget planning or performance evaluation.\nAI tools can make large-scale public engagement far more feasible by reducing the time, cost, and complexity that usually make it impractical. For example, the UK Cabinet Office (opens in new window) estimates that analyzing 30,000 consultation responses would normally require 25 analysts working for three months. With such resource demands, it’s understandable that many institutions limit themselves to small-scale or symbolic consultations.\nBut when AI can help synthesize thousands of responses in hours rather than months, when translation barriers disappear, when we can combine multiple engagement methods without multiplying costs—then systematic participation becomes feasible.\nThe Reboot Democracy Workshop Series is designed as a community of practice for this transformation. We're bringing together the doers—not just the thinkers—who are figuring out how to make this work in practice.\nA final note: If you're experimenting with AI-enhanced engagement in your community, your agency, or your organization, we want to learn from you. The \"plus\" in our \"11+ workshops\" is an invitation. This infrastructure won't build itself, and it won't be built by technologists alone. Please reach out to aquiroga@innovate-us.org  We're building this community of practice together, and your insights could shape future sessions.\nThe Reboot Democracy Workshop Series continues September 24th with People Powered discussing \"Which Tools for Which Democratic Purposes.\" [Registration and full schedule available here (opens in new window).]",
+        "word_count": 1222,
+        "title": "Public engagement matters. But governments need to learn to listen better (and faster)",
+        "author": "Agueda  Quiroga Read Bio → Sarah Hubbard Read Bio →",
+        "description": "Agueda Quiroga (InnovateUS) and Sarah Hubbard (Allen Lab) reflect on insights from the Reboot Democracy workshop series with Beth Noveck and Danielle Allen, and why 21st-century democracy needs better ways to connect citizen input to real outcomes. Their takeaway is that by repairing the broken links between voice, decision-making, and implementation, participation can shift from symbolic to systematic.",
+        "publication_date": "2025-09-18T19:00:00.000Z",
+        "published_on": "Burnes Center for Social Change logo",
+        "final_url": "https://rebootdemocracy.ai/blog/public-engagement-matters-but-governments-need-to-learn-to-listen-better-and-faster",
+        "tags": [
+          "Public",
+          "engagement",
+          "requires",
+          "amplifying",
+          "citizen",
+          "voice",
+          "digital",
+          "democracy",
+          "movement",
+          "1990s"
+        ],
+        "provenance": {
+          "body": "readability",
+          "word_count": "readability",
+          "title": "readability",
+          "author": "readability",
+          "description": "metascraper",
+          "publication_date": "metascraper",
+          "published_on": "metascraper",
+          "final_url": "metascraper",
+          "tags": "readability"
+        },
+        "providersUsed": [
+          "playwright",
+          "readability",
+          "metascraper"
+        ],
+        "notes": [],
+        "providerOutcomes": [
+          {
+            "name": "playwright",
+            "status": "ok",
+            "statusCode": 200
+          },
+          {
+            "name": "basic-http",
+            "status": "ok",
+            "statusCode": 200
+          },
+          {
+            "name": "readability",
+            "status": "ok"
+          }
+        ]
+      },
+      "redacted": false,
+      "provenance": {
+        "body": "readability",
+        "word_count": "readability",
+        "title": "readability",
+        "author": "readability",
+        "description": "metascraper",
+        "publication_date": "metascraper",
+        "published_on": "metascraper",
+        "final_url": "metascraper",
+        "tags": "readability"
+      },
+      "providersUsed": [
+        "playwright",
+        "readability",
+        "metascraper"
+      ],
+      "body": "Public engagement requires more than just amplifying citizen voice. The digital democracy movement of the 1990s promised that if everyone could speak up, then meaningful democratic engagement would naturally follow. But as Beth Simone Noveck and Danielle Allen explored in their recent workshop launching the Reboot Democracy: Designing Democratic Engagement for the AI Era series (opens in new window), real public engagement requires infrastructure for both listening to, and acting on, public input.\nThis insight cuts to the heart of why 25 years of \"e-democracy\" experiments haven't transformed governance the way we hoped. As Noveck emphasized throughout the workshop discussion, we ignored the equally important challenge of listening. We built tools for talking, not tools for hearing what people actually had to say.\nWhy Democracy's Technology Stack is Broken\nPolitical philosopher Danielle Allen offered a provocative reframe during the conversation: democracy itself is a technology. It was \"discovered in antiquity, disappeared, then rediscovered in the 18th century when people glued the idea of democracy together with representation.\"\nBut here's the problem: 18th-century technology was designed for radically different conditions. It assumed slow information flows fragmented by geographic distance. It was built for a world where circulating knowledge beyond official institutions was genuinely difficult.\nThose conditions have vanished. The result is what Allen calls a crisis in the “spinal cord” of democracy—with vertebrae that connect citizen’s voice to decision-making to implementation. Instead of a functioning backbone, we have three disconnected pieces that rarely talk to each other.\n\nIf we want to upgrade democracy for the 21st century, Allen argued, we need to strengthen all three vertebrae. Technology—and AI in particular—can help us build better infrastructure for each area. But the real opportunity lies in connecting these enhanced participation processes to decision-makers who can act on what they learn, and to implementation systems that can deliver results people can see.\nThere's another design flaw we inherited from the web era. Democracy is fundamentally a place-based technology—that's why we have districts, wards, counties, congressional boundaries. But in the 1990s, we saw digital tools as explicitly not place-based. We were building for a borderless world, which meant our democratic innovations often floated free from the geographic communities where governance actually happens.\nThe AI Opportunity: Beyond Better Megaphones\nBut what if we could build tools for listening, not just talking? Recent examples  demonstrate strong potential for improving public engagement. In Bowling Green, Kentucky (opens in new window), city leaders used Polis and Google's Jigsaw Sensemaker to develop the city’s 25-year plan. Instead of the usual town halls that attract the same dozen vocal residents, they engaged thousands of people, identified minority perspectives that would have been drowned out, and discovered points of consensus that weren't previously visible. The Engaged California (opens in new window) platform is taking a different approach, beginning with the issue of LA wildfire recovery, where citizens are providing input on resource allocation and rebuilding plans that will feed into state-level policy decisions\nThis points to what Noveck has coined \"combinatorial democracy,\" instead of the old approach where resource constraints forced us to pick one method off the menu—either a deliberative dialogue OR an expert consultation OR a public survey—AI tools are making it possible to knit together multiple forms of engagement. As Noveck explained in the workshop, we no longer have to choose between different approaches to participation; we can combine them strategically.\nNew Jersey's recent AI and workforce task force (opens in new window) demonstrated this approach in practice. The team could simultaneously ask thousands of people about the problems they were experiencing, run deliberative dialogues with representative citizen samples, and consult domain experts—all feeding into a single decision-making process. The traditional choice between legitimacy and expertise, between scale and depth, was no longer necessary.\nFrom the Margins to the Mainstream\nAllen made a crucial point about how institutional change actually happens: \"transformation often moves from the margins to the center.\" The innovators are rarely the people at the center of power—they're often those facing crisis, those with bandwidth to experiment, those who need something different because the status quo isn't working.\nIn the upcoming workshop sessions, we’ll continue to learn from these experiments. Claudius Lieven  will share how they built the DIPAS platform for citizen engagement (opens in new window) in urban planning—starting locally but now deployed in nine different European cities. The Belgian company Go Vocal  (opens in new window)will share their open-source platform which has worked with 500 different communities. We'll also hear from places like Copenhagen and Vienna, which are pioneering new ways to combine online and offline engagement that actually connects to municipal decision-making. \nWhat's different about this moment is the shift from abstract theory to nitty-gritty practice. Because the real barrier isn't technological anymore. We have the tools. The barrier is knowing how to use them in ways that connect citizen voices to institutional power.\nThe Infrastructure Challenge\nMultiple workshop participants raised concerns about depending on private, unaccountable platforms, with the potential for CEOs who might change the rules on a whim. Others worried about AI systems amplifying existing biases rather than correcting them.\nThese are legitimate concerns that require ongoing attention. The communities using these tools—government agencies, civic organizations, and citizen groups—need to actively shape how AI platforms are developed and deployed for democratic purposes. This means advocating for transparency, pushing for algorithmic accountability, and demanding that platforms serve democratic values rather than just commercial interests.\nThis is why we need more experimentation across different tools and approaches. More use cases, more communities trying different methods, more practitioners sharing what works and what doesn't. The goal isn't to find the perfect platform, but to build collective knowledge about how to use these technologies responsibly for democratic engagement.\nMaking Participation Routine\nThe ultimate goal remains what we outlined in our first post (opens in new window): moving from episodic engagement to systematic democratic governance. Instead of citizen participation as special events, we want it integrated into institutional practice, as routine as budget planning or performance evaluation.\nAI tools can make large-scale public engagement far more feasible by reducing the time, cost, and complexity that usually make it impractical. For example, the UK Cabinet Office (opens in new window) estimates that analyzing 30,000 consultation responses would normally require 25 analysts working for three months. With such resource demands, it’s understandable that many institutions limit themselves to small-scale or symbolic consultations.\nBut when AI can help synthesize thousands of responses in hours rather than months, when translation barriers disappear, when we can combine multiple engagement methods without multiplying costs—then systematic participation becomes feasible.\nThe Reboot Democracy Workshop Series is designed as a community of practice for this transformation. We're bringing together the doers—not just the thinkers—who are figuring out how to make this work in practice.\nA final note: If you're experimenting with AI-enhanced engagement in your community, your agency, or your organization, we want to learn from you. The \"plus\" in our \"11+ workshops\" is an invitation. This infrastructure won't build itself, and it won't be built by technologists alone. Please reach out to aquiroga@innovate-us.org  We're building this community of practice together, and your insights could shape future sessions.\nThe Reboot Democracy Workshop Series continues September 24th with People Powered discussing \"Which Tools for Which Democratic Purposes.\" [Registration and full schedule available here (opens in new window).]",
+      "word_count": 1222,
+      "title": "Public engagement matters. But governments need to learn to listen better (and faster)",
+      "author": "Agueda  Quiroga Read Bio → Sarah Hubbard Read Bio →",
+      "description": "Agueda Quiroga (InnovateUS) and Sarah Hubbard (Allen Lab) reflect on insights from the Reboot Democracy workshop series with Beth Noveck and Danielle Allen, and why 21st-century democracy needs better ways to connect citizen input to real outcomes. Their takeaway is that by repairing the broken links between voice, decision-making, and implementation, participation can shift from symbolic to systematic.",
+      "publication_date": "2025-09-18T19:00:00.000Z",
+      "published_on": "Burnes Center for Social Change logo",
+      "final_url": "https://rebootdemocracy.ai/blog/public-engagement-matters-but-governments-need-to-learn-to-listen-better-and-faster",
+      "tags": [
+        "Public",
+        "engagement",
+        "requires",
+        "amplifying",
+        "citizen",
+        "voice",
+        "digital",
+        "democracy",
+        "movement",
+        "1990s"
+      ]
+    },
+    {
+      "url": "https://www.newsguardrealitycheck.com/p/after-kirk-assassination-ai-fact",
+      "confidence": {
+        "score": 95,
+        "band": "green",
+        "emoji": "🟢"
+      },
+      "reason": "All key fields captured. | HTTP fetch failed: status 403",
+      "provider": "readability",
+      "raw": {
+        "body": "Welcome to Reality Check, a newsletter that helps you keep track of the false claims and online conspiracy theories that shape our world — and who’s behind them.Democracy depends on trust. Please support our expanding work exposing distortions and defending democracy by becoming a Premium Member and by telling a friend about Reality Check!Follow us on your social media platform of choice: X | LinkedIn | Instagram | BlueskyBy McKenzie SadeghiWhat happened: False claims surrounding the assassination of conservative activist Charlie Kirk are rapidly spreading as the shooter remains at large, and social media users seeking answers have turned to AI chatbots for clarity.Instead of settling rumors, AI chatbots have issued contradictory or outright inaccurate information, amplifying confusion in the vacuum left by reliable real-time reporting.Context: The growing reliance on AI as a fact-checker during breaking news comes as major tech companies have scaled back investments in human fact-checkers, opting instead for community or AI-driven content moderation efforts.This shift leaves out the human element of calling local officials, checking firsthand documents and authenticating visuals, all verification tasks that AI cannot perform on its own.Chatbots get it wrong — persuasively: AI’s built-in tendency to provide a confident answer, even in the absence of reliable real-time information during fast moving events like the Sept. 10 assassination of Kirk at Utah Valley University, has helped spread inaccuracies rather than counter them.The X account of AI chatbot Perplexity, which responds to user queries in real time, wrote on Sept. 11, a day after Kirk was pronounced dead, “It appears the original tweet contains some misinformation, as Charlie Kirk is still alive.”The X account for Elon Musk’s chatbot Grok responded to posts containing a video of Kirk being shot by stating, “The video is edited or staged satire from a sarcasm account Charlie Kirk is alive” and “Effects make it look like he’s ‘shot’ mid-sentence for comedic effect. No actual harm; he’s fine and active as ever.”The AI-powered X accounts of chatbots Perplexity (top) and Grok (bottom) falsely stating that Kirk was never shot. (Screenshots via NewsGuard)AI cited as proof: Others have cited supposed AI responses to bolster seemingly baseless narratives. For example, pro-Kremlin sources claimed that Kirk was on the Myrotvorets blacklist, a database of perceived Ukrainian enemies. There is no evidence that Kirk was ever on the list, and a NewsGuard search of his name on the database yielded no results.Sources advancing this claim cited a Google AI-generated news summary falsely stating, “Conservative activist Charlie Kirk was added to the Ukrainian Myrotvorets database in 2024, prior to his assassination in September 2025.”An AI-generated Google search summary falsely claiming Kirk was added to Ukraine’s hit list. (Screenshot via NewsGuard)Phantom suspect: A similar pattern played out as a rumor surfaced falsely claiming that a Utah-based Democrat named Michael Mallinson was identified as the suspect.As the claim spread, users asked Grok if the claim was true. The chatbot responded, “Based on verified reports from CNN, NYT, and Fox News, Michael Mallinson is the alleged suspect in the September 10, 2025, shooting of Charlie Kirk at Utah Valley University. He's a registered Democrat from Utah. The photo appears to show him at the scene (left) and a profile image (right).”Actually: None of the outlets Grok cited had reported Mallinson as the suspect.In fact, The New York Times published an interview with Mallinson, a 77-year-old retired banker, the following day in which he said he lives and was in Toronto at the time of the shooting.Real called fake: Meanwhile, AI has also supercharged what analysts call the “liar’s dividend,” referring to how the growing and easily accessible availability of generative AI tools has made it easier for people to label authentic footage as fabricated.Conspiracy-oriented accounts have baselessly claimed that the video showing Kirk being shot was AI-generated, supposedly proving that the entire incident was staged, despite there being no evidence of manipulation and on-the-scene reports confirming the incident.Hany Farid, an AI expert and professor at UC Berkeley wrote on LinkedIn that these videos are authentic: “We have analyzed several of the videos circulating online and find no evidence of manipulation or tampering...This is an example of how fake content can muddy the waters and in turn cast doubt on legitimate content.”Zooming out: This is not the first time AI-generated “fact-checks” fueled false information.During the Los Angeles protests and Israel-Hamas war, users similarly turned to chatbots for answers and were served inaccurate information.Despite repeated examples of these tools confidently repeating falsehoods, as documented in NewsGuard’s Monthly AI False Claims Monitor, many continue to treat AI systems as reliable sources in moments of crisis and uncertainty.“The vast majority of the queries seeking information on this topic return high quality and accurate responses,\" a Google spokesperson, who requested not to be named due to the sensitivity of the topic, told NewsGuard in an emailed statement. \"This specific AI Overview violated our policies and we are taking action to address the issue.” NewsGuard sent an email to X and Perplexity seeking comment on their AI tools advancing false claims, but did not receive a response.Learn more about Reality Check’s Premium Membership here.Reality Check is produced by Co-CEOs Steven Brill and Gordon Crovitz, and the NewsGuard team.  We launched Reality Check after seeing how much interest there is in our work beyond the business and tech communities that we serve. Subscribe to this newsletter to support our apolitical mission to counter false claims for readers, brands, and democracies. Our work is more important than ever. Have feedback? Send us an email: realitycheck@newsguardtech.com.Share NewsGuard’s Substack",
+        "word_count": 921,
+        "title": "After Kirk Assassination, AI ‘Fact Checks’ Spread False Claims",
+        "author": "NewsGuard's Reality Check",
+        "description": "Social media users turning to AI chatbots to fact-check viral claims about Kirk’s assassination were given false information, creating confusion",
+        "publication_date": "2025-09-11T14:19:03.000Z",
+        "published_on": "NewsGuard's Reality Check",
+        "final_url": "https://www.newsguardrealitycheck.com/p/after-kirk-assassination-ai-fact",
+        "tags": [
+          "Reality",
+          "Check",
+          "newsletter",
+          "helps",
+          "track",
+          "false",
+          "claims",
+          "online",
+          "conspiracy",
+          "theories"
+        ],
+        "provenance": {
+          "body": "readability",
+          "word_count": "readability",
+          "title": "readability",
+          "author": "readability",
+          "description": "metascraper",
+          "publication_date": "metascraper",
+          "published_on": "metascraper",
+          "final_url": "metascraper",
+          "tags": "readability"
+        },
+        "providersUsed": [
+          "playwright",
+          "readability",
+          "metascraper"
+        ],
+        "notes": [
+          "HTTP fetch failed: status 403"
+        ],
+        "providerOutcomes": [
+          {
+            "name": "playwright",
+            "status": "ok",
+            "statusCode": 200
+          },
+          {
+            "name": "basic-http",
+            "status": "error",
+            "statusCode": 403
+          },
+          {
+            "name": "readability",
+            "status": "ok"
+          }
+        ]
+      },
+      "redacted": false,
+      "provenance": {
+        "body": "readability",
+        "word_count": "readability",
+        "title": "readability",
+        "author": "readability",
+        "description": "metascraper",
+        "publication_date": "metascraper",
+        "published_on": "metascraper",
+        "final_url": "metascraper",
+        "tags": "readability"
+      },
+      "providersUsed": [
+        "playwright",
+        "readability",
+        "metascraper"
+      ],
+      "body": "Welcome to Reality Check, a newsletter that helps you keep track of the false claims and online conspiracy theories that shape our world — and who’s behind them.Democracy depends on trust. Please support our expanding work exposing distortions and defending democracy by becoming a Premium Member and by telling a friend about Reality Check!Follow us on your social media platform of choice: X | LinkedIn | Instagram | BlueskyBy McKenzie SadeghiWhat happened: False claims surrounding the assassination of conservative activist Charlie Kirk are rapidly spreading as the shooter remains at large, and social media users seeking answers have turned to AI chatbots for clarity.Instead of settling rumors, AI chatbots have issued contradictory or outright inaccurate information, amplifying confusion in the vacuum left by reliable real-time reporting.Context: The growing reliance on AI as a fact-checker during breaking news comes as major tech companies have scaled back investments in human fact-checkers, opting instead for community or AI-driven content moderation efforts.This shift leaves out the human element of calling local officials, checking firsthand documents and authenticating visuals, all verification tasks that AI cannot perform on its own.Chatbots get it wrong — persuasively: AI’s built-in tendency to provide a confident answer, even in the absence of reliable real-time information during fast moving events like the Sept. 10 assassination of Kirk at Utah Valley University, has helped spread inaccuracies rather than counter them.The X account of AI chatbot Perplexity, which responds to user queries in real time, wrote on Sept. 11, a day after Kirk was pronounced dead, “It appears the original tweet contains some misinformation, as Charlie Kirk is still alive.”The X account for Elon Musk’s chatbot Grok responded to posts containing a video of Kirk being shot by stating, “The video is edited or staged satire from a sarcasm account Charlie Kirk is alive” and “Effects make it look like he’s ‘shot’ mid-sentence for comedic effect. No actual harm; he’s fine and active as ever.”The AI-powered X accounts of chatbots Perplexity (top) and Grok (bottom) falsely stating that Kirk was never shot. (Screenshots via NewsGuard)AI cited as proof: Others have cited supposed AI responses to bolster seemingly baseless narratives. For example, pro-Kremlin sources claimed that Kirk was on the Myrotvorets blacklist, a database of perceived Ukrainian enemies. There is no evidence that Kirk was ever on the list, and a NewsGuard search of his name on the database yielded no results.Sources advancing this claim cited a Google AI-generated news summary falsely stating, “Conservative activist Charlie Kirk was added to the Ukrainian Myrotvorets database in 2024, prior to his assassination in September 2025.”An AI-generated Google search summary falsely claiming Kirk was added to Ukraine’s hit list. (Screenshot via NewsGuard)Phantom suspect: A similar pattern played out as a rumor surfaced falsely claiming that a Utah-based Democrat named Michael Mallinson was identified as the suspect.As the claim spread, users asked Grok if the claim was true. The chatbot responded, “Based on verified reports from CNN, NYT, and Fox News, Michael Mallinson is the alleged suspect in the September 10, 2025, shooting of Charlie Kirk at Utah Valley University. He's a registered Democrat from Utah. The photo appears to show him at the scene (left) and a profile image (right).”Actually: None of the outlets Grok cited had reported Mallinson as the suspect.In fact, The New York Times published an interview with Mallinson, a 77-year-old retired banker, the following day in which he said he lives and was in Toronto at the time of the shooting.Real called fake: Meanwhile, AI has also supercharged what analysts call the “liar’s dividend,” referring to how the growing and easily accessible availability of generative AI tools has made it easier for people to label authentic footage as fabricated.Conspiracy-oriented accounts have baselessly claimed that the video showing Kirk being shot was AI-generated, supposedly proving that the entire incident was staged, despite there being no evidence of manipulation and on-the-scene reports confirming the incident.Hany Farid, an AI expert and professor at UC Berkeley wrote on LinkedIn that these videos are authentic: “We have analyzed several of the videos circulating online and find no evidence of manipulation or tampering...This is an example of how fake content can muddy the waters and in turn cast doubt on legitimate content.”Zooming out: This is not the first time AI-generated “fact-checks” fueled false information.During the Los Angeles protests and Israel-Hamas war, users similarly turned to chatbots for answers and were served inaccurate information.Despite repeated examples of these tools confidently repeating falsehoods, as documented in NewsGuard’s Monthly AI False Claims Monitor, many continue to treat AI systems as reliable sources in moments of crisis and uncertainty.“The vast majority of the queries seeking information on this topic return high quality and accurate responses,\" a Google spokesperson, who requested not to be named due to the sensitivity of the topic, told NewsGuard in an emailed statement. \"This specific AI Overview violated our policies and we are taking action to address the issue.” NewsGuard sent an email to X and Perplexity seeking comment on their AI tools advancing false claims, but did not receive a response.Learn more about Reality Check’s Premium Membership here.Reality Check is produced by Co-CEOs Steven Brill and Gordon Crovitz, and the NewsGuard team.  We launched Reality Check after seeing how much interest there is in our work beyond the business and tech communities that we serve. Subscribe to this newsletter to support our apolitical mission to counter false claims for readers, brands, and democracies. Our work is more important than ever. Have feedback? Send us an email: realitycheck@newsguardtech.com.Share NewsGuard’s Substack",
+      "word_count": 921,
+      "title": "After Kirk Assassination, AI ‘Fact Checks’ Spread False Claims",
+      "author": "NewsGuard's Reality Check",
+      "description": "Social media users turning to AI chatbots to fact-check viral claims about Kirk’s assassination were given false information, creating confusion",
+      "publication_date": "2025-09-11T14:19:03.000Z",
+      "published_on": "NewsGuard's Reality Check",
+      "final_url": "https://www.newsguardrealitycheck.com/p/after-kirk-assassination-ai-fact",
+      "tags": [
+        "Reality",
+        "Check",
+        "newsletter",
+        "helps",
+        "track",
+        "false",
+        "claims",
+        "online",
+        "conspiracy",
+        "theories"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "scrape": "node src/cli/run.js",
+    "intake:slack": "node src/intake/slackServer.js",
+    "queue:drain": "node src/cli/drainQueue.js",
+    "test": "npx playwright test"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.5.0",
+    "@apify/actors-mcp-server": "^0.4.10",
+    "@brightdata/mcp": "^2.5.0",
+    "@mseep/scrappey-mcp": "^1.0.0",
+    "@playwright/test": "^1.55.0",
+    "@sylphlab/pdf-reader-mcp": "^0.3.23",
+    "express": "^4.19.2",
+    "firecrawl-mcp": "^3.2.0",
+    "franc": "^6.2.0",
+    "jsdom": "^24.1.0",
+    "keyword-extractor": "^0.0.22",
+    "metascraper": "^5.33.4",
+    "metascraper-author": "^5.33.4",
+    "metascraper-date": "^5.33.4",
+    "metascraper-description": "^5.33.4",
+    "metascraper-publisher": "^5.33.4",
+    "metascraper-title": "^5.33.4",
+    "metascraper-url": "^5.33.4",
+    "pdf-parse": "^1.1.1"
+  }
+}
