@@ -11,6 +11,14 @@ Because serverless functions have tight execution limits, choose whether to keep
 
 Set the environment variable in the Vercel dashboard (`Project Settings → Environment Variables`). Unless you override it, Vercel will run the function on its default Node.js runtime (currently Node 22+), which is compatible with this codebase.
 
+### Enabling Playwright on Vercel
+
+1. Remove (or set to `0`) the `DISABLE_PLAYWRIGHT` env var.
+2. Add `PLAYWRIGHT_SERVERLESS=1` so the scraper uses `@sparticuz/chromium-min` inside the serverless function.
+3. If the project was deployed previously with Playwright disabled, redeploy after the env changes.
+
+The bundled `@sparticuz/chromium-min` binary keeps the function size under the Vercel limits while allowing Playwright captures.
+
 ## 2. Configure the Function
 
 `api/digest.js` exposes a `POST /api/digest` endpoint:
@@ -45,7 +53,7 @@ Artifacts are not written to disk on serverless runs.
 3. From the repository root, run `vercel` and follow the prompts.
 4. Subsequent updates use `vercel deploy`.
 
-The provided `vercel.json` pins the runtime to Node 18, increases memory to 1.5 GB, and allows up to 60 s execution.
+The provided `vercel.json` bumps memory to 1.5 GB and allows up to 60 s execution.
 
 ## 4. Scheduling (Optional)
 
