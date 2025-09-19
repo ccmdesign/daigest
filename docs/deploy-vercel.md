@@ -9,7 +9,7 @@ Because serverless functions have tight execution limits, choose whether to keep
 - Default (`DISABLE_PLAYWRIGHT=1`): relies on the HTTP provider only. Works everywhere with lower fidelity.
 - Enable Playwright only if the target host supports Chromium (e.g. Vercel with custom build steps or a self-hosted runtime).
 
-Set the environment variable in the Vercel dashboard (`Project Settings → Environment Variables`).
+Set the environment variable in the Vercel dashboard (`Project Settings → Environment Variables`). Unless you override it, Vercel will run the function on its default Node.js runtime (currently Node 22+), which is compatible with this codebase.
 
 ## 2. Configure the Function
 
