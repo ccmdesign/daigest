@@ -25,6 +25,7 @@
     "metascraper-publisher": "^5.33.4",
     "metascraper-title": "^5.33.4",
     "metascraper-url": "^5.33.4",
-    "pdf-parse": "^1.1.1"
+    "pdf-parse": "^1.1.1",
+    "dotenv": "^16.4.7"
   }
 }

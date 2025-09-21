@@ -1,1 +1,9 @@
+.env
+.env.local
+.env.*
+!.env.example
 node_modules
+data/linkQueue.json
+test-results/
+.DS_Store
+.claude/

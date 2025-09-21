@@ -6,28 +6,28 @@
         "/usr/local/lib/node_modules/perplexity-mcp/build/index.js"
       ],
       "env": {
-        "PERPLEXITY_API_KEY": "pplx-qvHUs0jd7AtqL1RbhTO5BWXhDjwLva8DO50BqFZ7MDg3tvj"
+        "PERPLEXITY_API_KEY": "${PERPLEXITY_API_KEY}"
       }
     },
     "tavily": {
       "command": "npx",
       "args": ["-y", "tavily-mcp@latest"],
       "env": {
-        "TAVILY_API_KEY": "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"
+        "TAVILY_API_KEY": "${TAVILY_API_KEY}"
       }
     },
     "brightdata": {
       "command": "npx",
       "args": ["@brightdata/mcp"],
       "env": {
-        "BRIGHTDATA_API_KEY": "7685912ac146ae991f5c411f0132008d46bc65e37be402c817951a2548518fdb"
+        "BRIGHTDATA_API_KEY": "${BRIGHTDATA_API_KEY}"
       }
     },
     "firecrawl": {
       "command": "npx",
       "args": ["firecrawl-mcp"],
       "env": {
-        "FIRECRAWL_API_KEY": "fc-4ae267b9deb74a979e45c3c06bcf8500"
+        "FIRECRAWL_API_KEY": "${FIRECRAWL_API_KEY}"
       }
     },
     "playwright": {
@@ -42,14 +42,14 @@
       "command": "npx",
       "args": ["@apify/actors-mcp-server"],
       "env": {
-        "APIFY_API_TOKEN": "3CRJHQMxzXXPXW1hyLlgBMlQyIux15pqrY6rRlBgTN1SRFXmd2Z81KHzariz"
+        "APIFY_API_TOKEN": "${APIFY_API_TOKEN}"
       }
     },
     "scrappey": {
       "command": "node",
       "args": ["/Users/claudiomendonca/Documents/GitHub/vibe-stuff/ai-digest/node_modules/@mseep/scrappey-mcp/index.js"],
       "env": {
-        "SCRAPPEY_API_KEY": "3CRJHQMxzXXPXW1hyLlgBMlQyIux15pqrY6rRlBgTN1SRFXmd2Z81KHzariz"
+        "SCRAPPEY_API_KEY": "${SCRAPPEY_API_KEY}"
       }
     }
   }

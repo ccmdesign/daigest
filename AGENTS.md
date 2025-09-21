@@ -11,6 +11,7 @@
 - `npm run intake:slack` — start the local Slack link intake server (requires `SLACK_SIGNING_SECRET`).
 - `npm run queue:drain` — process any queued links through the scraper pipeline.
 - `npx @apify/actors-mcp-server --help` and similar MCP CLIs — verify connectivity or debug agent behavior before shipping changes.
+- Environment variables load from `.env` (copy `.env.example`) at process startup.
 - See `docs/deploy-vercel.md` for serverless deployment instructions.
 
 ## Coding Style & Naming Conventions

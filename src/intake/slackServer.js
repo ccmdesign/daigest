@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+require('../utils/loadEnv');
 const express = require('express');
 const crypto = require('crypto');
 const http = require('http');

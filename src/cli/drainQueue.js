@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+require('../utils/loadEnv');
 const { popPending, pushEntries } = require('../intake/linkQueue');
 const { runAgent } = require('../pipeline/runAgent');
 const { MAX_LINKS_PER_RUN } = require('../config/defaults');

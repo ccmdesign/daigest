@@ -1,3 +1,4 @@
+require('../src/utils/loadEnv');
 const { runAgent } = require('../src/pipeline/runAgent');
 
 function parseRequestBody(req) {
