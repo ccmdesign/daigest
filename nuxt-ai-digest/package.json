@@ -1,0 +1,52 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.6.0",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@sparticuz/chromium-min": "^138.0.2",
+    "@vueuse/core": "^13.9.0",
+    "@vueuse/nuxt": "^13.9.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^17.2.2",
+    "franc": "^6.2.0",
+    "jsdom": "^27.0.0",
+    "keyword-extractor": "^0.0.28",
+    "lucide-vue-next": "^0.544.0",
+    "metascraper": "^5.49.4",
+    "metascraper-author": "^5.49.2",
+    "metascraper-date": "^5.49.2",
+    "metascraper-description": "^5.49.2",
+    "metascraper-publisher": "^5.49.2",
+    "metascraper-title": "^5.49.2",
+    "metascraper-url": "^5.49.2",
+    "nuxt": "^4.1.2",
+    "pdf-parse": "^1.1.1",
+    "playwright-core": "^1.55.0",
+    "radix-vue": "^1.9.17",
+    "reka-ui": "^2.5.0",
+    "shadcn-vue": "^2.2.0",
+    "tailwind-merge": "^3.3.1",
+    "vue": "^3.5.21",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@iconify-json/heroicons": "^1.2.3",
+    "@tailwindcss/typography": "^0.5.18",
+    "autoprefixer": "^10.4.21",
+    "playwright": "^1.55.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.14",
+    "vitest": "^1.6.0"
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "c2d77905-70d6-49de-a79a-6178e832be2a",
+    "createdAt": "2025-09-21T16:32:34.920Z",
+    "summary": {
+      "total": 1,
+      "durationMs": 500
+    },
+    "records": [
+      {
+        "url": "https://a.com",
+        "confidence": 80
+      }
+    ]
+  }
+]
