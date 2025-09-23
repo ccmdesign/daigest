@@ -1,0 +1,49 @@
+openapi: 3.0.0
+info:
+  title: Manager Actions API
+  version: 1.0.0
+paths:
+  /api/card/{id}/shortlist:
+    post:
+      summary: Shortlists a card for the next newsletter issue.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Card successfully shortlisted.
+  /api/card/{id}/save:
+    post:
+      summary: Saves a card for later.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Card successfully saved for later.
+  /api/card/{id}/return:
+    post:
+      summary: Returns a card to the analyst for revision.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                notes:
+                  type: string
+      responses:
+        '200':
+          description: Card successfully returned to analyst.

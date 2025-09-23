@@ -1,0 +1,40 @@
+[
+  {
+    "createdAt": "2025-09-22T04:55:31.074Z",
+    "summary": {
+      "total": 1,
+      "durationMs": 150
+    },
+    "records": [
+      {
+        "id": "4a354ca4-af09-4bd6-9ae4-92dfdaa93f56",
+        "url": "https://legacy.com",
+        "title": "",
+        "description": "",
+        "author": "",
+        "published_on": "",
+        "publication_date": "",
+        "body": "",
+        "word_count": 0,
+        "tags": [],
+        "publisher": "",
+        "language": "",
+        "confidence": 90,
+        "reason": "Test fixture",
+        "provider": "test-provider",
+        "provenance": {},
+        "providersUsed": [],
+        "notes": [],
+        "redacted": false,
+        "shortlisted": false,
+        "reviewStage": "analyst_review",
+        "status": "ready",
+        "history": [],
+        "rescanState": {
+          "status": "idle"
+        }
+      }
+    ],
+    "id": "16fcb64d-9634-4d71-8950-e4f2c9fcbc68"
+  }
+]

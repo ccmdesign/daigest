@@ -1,0 +1,40 @@
+[
+  {
+    "createdAt": "2025-09-22T14:54:17.774Z",
+    "summary": {
+      "total": 2,
+      "durationMs": 1200
+    },
+    "records": [
+      {
+        "id": "44bee2f7-4a7d-4ea9-8370-e8ef01ec58ba",
+        "url": "https://example.com",
+        "title": "",
+        "description": "",
+        "author": "",
+        "published_on": "",
+        "publication_date": "",
+        "body": "",
+        "word_count": 0,
+        "tags": [],
+        "publisher": "",
+        "language": "",
+        "confidence": 90,
+        "reason": "Test fixture",
+        "provider": "test-provider",
+        "provenance": {},
+        "providersUsed": [],
+        "notes": [],
+        "redacted": false,
+        "shortlisted": false,
+        "reviewStage": "analyst_review",
+        "status": "ready",
+        "history": [],
+        "rescanState": {
+          "status": "idle"
+        }
+      }
+    ],
+    "id": "db5bc02a-f223-4746-82bb-29edc8dd1158"
+  }
+]

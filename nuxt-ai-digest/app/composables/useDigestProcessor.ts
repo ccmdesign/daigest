@@ -1,5 +1,6 @@
 import { computed, ref, shallowRef } from 'vue'
 import type { ArticleRecord, ProcessingOptions } from '~/types'
+import { ensureReviewStage } from '~/lib/reviewStage'
 
 type StatusState = 'pending' | 'processing' | 'done' | 'error'
 
@@ -13,6 +14,7 @@ interface StatusItem {
 interface ProcessSummary {
   total: number
   durationMs: number
+  shortlistedTotal?: number
 }
 
 export function useDigestProcessor() {
@@ -65,8 +67,8 @@ export function useDigestProcessor() {
         },
       })
 
-      const records = (response as any)?.data?.records || []
-      results.value = records
+      const records = ((response as any)?.data?.records || []) as ArticleRecord[]
+      results.value = records.map((record) => ensureReviewStage(record))
       summary.value = {
         total: urls.length,
         durationMs: (response as any)?.data?.metadata?.durationMs || 0,
@@ -150,7 +152,8 @@ export function useDigestProcessor() {
       }
       case 'record': {
         if (typeof payload.index === 'number' && payload.record) {
-          results.value[payload.index] = payload.record as ArticleRecord
+          const normalized = ensureReviewStage(payload.record as ArticleRecord)
+          results.value[payload.index] = normalized
           results.value = [...results.value]
           updateStatus(payload.index, { state: 'done', message: undefined })
         }

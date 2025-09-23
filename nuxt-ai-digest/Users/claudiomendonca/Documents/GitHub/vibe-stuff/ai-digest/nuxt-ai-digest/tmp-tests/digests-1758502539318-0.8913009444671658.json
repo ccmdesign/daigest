@@ -1,0 +1,67 @@
+[
+  {
+    "createdAt": "2025-09-22T00:55:39.319Z",
+    "summary": {
+      "total": 2,
+      "durationMs": 400,
+      "shortlistedTotal": 1
+    },
+    "records": [
+      {
+        "id": "0588aa4e-4afa-452c-97d6-eacd447cf0ff",
+        "url": "https://shortlist.com",
+        "title": "",
+        "description": "",
+        "author": "",
+        "published_on": "",
+        "publication_date": "",
+        "body": "",
+        "word_count": 0,
+        "tags": [],
+        "publisher": "",
+        "language": "",
+        "confidence": 90,
+        "reason": "Test fixture",
+        "provider": "test-provider",
+        "provenance": {},
+        "providersUsed": [],
+        "notes": [],
+        "redacted": false,
+        "shortlisted": true,
+        "status": "ready",
+        "history": [],
+        "rescanState": {
+          "status": "idle"
+        }
+      },
+      {
+        "id": "0ca02deb-8291-4064-b846-8616da5395d1",
+        "url": "https://other.com",
+        "title": "",
+        "description": "",
+        "author": "",
+        "published_on": "",
+        "publication_date": "",
+        "body": "",
+        "word_count": 0,
+        "tags": [],
+        "publisher": "",
+        "language": "",
+        "confidence": 90,
+        "reason": "Test fixture",
+        "provider": "test-provider",
+        "provenance": {},
+        "providersUsed": [],
+        "notes": [],
+        "redacted": false,
+        "shortlisted": false,
+        "status": "ready",
+        "history": [],
+        "rescanState": {
+          "status": "idle"
+        }
+      }
+    ],
+    "id": "c0faacc5-c9cc-4337-9529-3fa59641e6e4"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "createdAt": "2025-09-22T01:10:46.043Z",
+    "summary": {
+      "total": 1,
+      "durationMs": 500
+    },
+    "records": [
+      {
+        "id": "c71cb82a-2e52-4905-ac57-888888763c33",
+        "url": "https://a.com",
+        "title": "",
+        "description": "",
+        "author": "",
+        "published_on": "",
+        "publication_date": "",
+        "body": "",
+        "word_count": 0,
+        "tags": [],
+        "publisher": "",
+        "language": "",
+        "confidence": 90,
+        "reason": "Test fixture",
+        "provider": "test-provider",
+        "provenance": {},
+        "providersUsed": [],
+        "notes": [],
+        "redacted": false,
+        "shortlisted": false,
+        "status": "ready",
+        "history": [],
+        "rescanState": {
+          "status": "idle"
+        }
+      }
+    ],
+    "id": "0376c875-8905-4fc4-ab4e-64a21a79e0f2"
+  }
+]

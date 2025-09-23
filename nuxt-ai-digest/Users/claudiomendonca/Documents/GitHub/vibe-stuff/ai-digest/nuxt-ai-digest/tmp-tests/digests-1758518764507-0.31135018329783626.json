@@ -1,0 +1,42 @@
+[
+  {
+    "createdAt": "2025-09-22T05:26:04.507Z",
+    "summary": {
+      "total": 1,
+      "durationMs": 200,
+      "shortlistedTotal": 0
+    },
+    "records": [
+      {
+        "id": "31d9baf3-e4d5-4f95-92b2-8b47970efca8",
+        "url": "https://stage-update.com",
+        "title": "",
+        "description": "",
+        "author": "",
+        "published_on": "",
+        "publication_date": "",
+        "body": "",
+        "word_count": 0,
+        "tags": [],
+        "publisher": "",
+        "language": "",
+        "confidence": 90,
+        "reason": "Test fixture",
+        "provider": "test-provider",
+        "provenance": {},
+        "providersUsed": [],
+        "notes": [],
+        "redacted": false,
+        "shortlisted": false,
+        "reviewStage": "needs_revision",
+        "status": "ready",
+        "history": [],
+        "rescanState": {
+          "status": "idle"
+        },
+        "lastReviewedAt": "2025-09-22T05:26:04.507Z"
+      }
+    ],
+    "id": "a4ee57be-7f7a-4e0c-b97a-73e312579dff"
+  }
+]

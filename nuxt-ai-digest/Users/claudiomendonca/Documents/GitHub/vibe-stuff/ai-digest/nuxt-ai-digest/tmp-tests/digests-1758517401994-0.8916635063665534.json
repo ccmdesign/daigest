@@ -1,0 +1,69 @@
+[
+  {
+    "createdAt": "2025-09-22T05:03:21.994Z",
+    "summary": {
+      "total": 2,
+      "durationMs": 400,
+      "shortlistedTotal": 1
+    },
+    "records": [
+      {
+        "id": "6364906c-0ef6-4509-8afe-a35d841cf77b",
+        "url": "https://shortlist.com",
+        "title": "",
+        "description": "",
+        "author": "",
+        "published_on": "",
+        "publication_date": "",
+        "body": "",
+        "word_count": 0,
+        "tags": [],
+        "publisher": "",
+        "language": "",
+        "confidence": 90,
+        "reason": "Test fixture",
+        "provider": "test-provider",
+        "provenance": {},
+        "providersUsed": [],
+        "notes": [],
+        "redacted": false,
+        "shortlisted": true,
+        "reviewStage": "shortlisted",
+        "status": "ready",
+        "history": [],
+        "rescanState": {
+          "status": "idle"
+        }
+      },
+      {
+        "id": "5f2facc9-8d7c-4c16-ba48-f5b1a544aa58",
+        "url": "https://other.com",
+        "title": "",
+        "description": "",
+        "author": "",
+        "published_on": "",
+        "publication_date": "",
+        "body": "",
+        "word_count": 0,
+        "tags": [],
+        "publisher": "",
+        "language": "",
+        "confidence": 90,
+        "reason": "Test fixture",
+        "provider": "test-provider",
+        "provenance": {},
+        "providersUsed": [],
+        "notes": [],
+        "redacted": false,
+        "shortlisted": false,
+        "reviewStage": "analyst_review",
+        "status": "ready",
+        "history": [],
+        "rescanState": {
+          "status": "idle"
+        }
+      }
+    ],
+    "id": "5cc54e7b-17a3-4848-8bef-0f73e5771778"
+  }
+]

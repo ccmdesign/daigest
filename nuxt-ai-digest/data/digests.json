@@ -52,7 +52,14 @@
         ],
         "notes": [
           "Playwright rendering failed: page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://natlawreview.com/article/artificial-intelligence-provisions-fiscal-year-2026-house-and-senate-national\", waiting until \"networkidle\"\u001b[22m\n"
-        ]
+        ],
+        "id": "af900cc6-30a8-40fc-8252-29c472133903",
+        "status": "ready",
+        "reviewStage": "analyst_review",
+        "history": [],
+        "rescanState": {
+          "status": "idle"
+        }
       },
       {
         "url": "https://rebootdemocracy.ai/blog/NJ-AI-2025",
@@ -97,7 +104,14 @@
           "code",
           "america"
         ],
-        "notes": []
+        "notes": [],
+        "id": "77f59129-f285-4abc-b98e-d6e1eb25901a",
+        "status": "ready",
+        "reviewStage": "analyst_review",
+        "history": [],
+        "rescanState": {
+          "status": "idle"
+        }
       },
       {
         "url": "https://www.theguardian.com/world/2025/sep/11/albania-diella-ai-minister-public-procurement",
@@ -142,7 +156,14 @@
           "virtually",
           "created"
         ],
-        "notes": []
+        "notes": [],
+        "id": "4075467f-b668-4b97-a73d-f77e84096652",
+        "status": "ready",
+        "reviewStage": "analyst_review",
+        "history": [],
+        "rescanState": {
+          "status": "idle"
+        }
       },
       {
         "url": "https://nationalcenterforstatecourts.shinyapps.io/AIReadinessGuide/",
@@ -171,7 +192,14 @@
         "tags": [],
         "notes": [
           "Legacy HTML parser applied for missing metadata"
-        ]
+        ],
+        "id": "54581b9e-eefc-4c57-9260-a94c6fd22a47",
+        "status": "ready",
+        "reviewStage": "analyst_review",
+        "history": [],
+        "rescanState": {
+          "status": "idle"
+        }
       },
       {
         "url": "https://www.aspeninstitute.org/blog-posts/worker-power-in-the-age-of-ai-monopolies-why-we-need-structural-solutions-now/",
@@ -216,7 +244,14 @@
           "work",
           "state"
         ],
-        "notes": []
+        "notes": [],
+        "id": "20301373-13b6-4026-8c64-056bc29f172c",
+        "status": "ready",
+        "reviewStage": "analyst_review",
+        "history": [],
+        "rescanState": {
+          "status": "idle"
+        }
       },
       {
         "url": "https://www.cogitatiopress.com/politicsandgovernance/article/view/10468",
@@ -259,7 +294,14 @@
           "perle",
           "petit"
         ],
-        "notes": []
+        "notes": [],
+        "id": "c707c9e5-00cf-449e-8c13-05abbaf71a5e",
+        "status": "ready",
+        "reviewStage": "analyst_review",
+        "history": [],
+        "rescanState": {
+          "status": "idle"
+        }
       },
       {
         "url": "https://www.peoplepowered.org/digital-guide-home",
@@ -303,7 +345,14 @@
           "digital",
           "platforms"
         ],
-        "notes": []
+        "notes": [],
+        "id": "f77918f5-d187-48a2-b6bc-0b69b794b296",
+        "status": "ready",
+        "reviewStage": "analyst_review",
+        "history": [],
+        "rescanState": {
+          "status": "idle"
+        }
       },
       {
         "url": "https://rebootdemocracy.ai/blog/public-engagement-matters-but-governments-need-to-learn-to-listen-better-and-faster",
@@ -348,7 +397,14 @@
           "movement",
           "1990s"
         ],
-        "notes": []
+        "notes": [],
+        "id": "48c0e75a-7468-426e-94f4-b5c334b1a8f8",
+        "status": "ready",
+        "reviewStage": "analyst_review",
+        "history": [],
+        "rescanState": {
+          "status": "idle"
+        }
       },
       {
         "url": "https://www.newsguardrealitycheck.com/p/after-kirk-assassination-ai-fact",
@@ -395,8 +451,191 @@
         ],
         "notes": [
           "HTTP fetch failed: HTTP 403"
-        ]
+        ],
+        "id": "48a61c19-fe3d-4433-aadb-04f823bbbba6",
+        "status": "ready",
+        "reviewStage": "analyst_review",
+        "history": [],
+        "rescanState": {
+          "status": "idle"
+        }
       }
     ]
+  },
+  {
+    "createdAt": "2025-09-22T14:21:13.817Z",
+    "summary": {
+      "total": 3,
+      "durationMs": 0,
+      "shortlistedTotal": 0
+    },
+    "records": [
+      {
+        "url": "https://natlawreview.com/article/artificial-intelligence-provisions-fiscal-year-2026-house-and-senate-national",
+        "confidence": 85,
+        "reason": "All key fields captured. | Playwright rendering failed: page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://natlawreview.com/article/artificial-intelligence-provisions-fiscal-year-2026-house-and-senate-national\", waiting until \"networkidle\"\u001b[22m\n",
+        "provider": "readability",
+        "provenance": {
+          "title": "readability",
+          "description": "readability",
+          "author": "readability",
+          "publisher": "readability",
+          "published_on": "readability",
+          "publication_date": "readability",
+          "body": "readability",
+          "word_count": "readability",
+          "tags": "readability",
+          "language": "readability"
+        },
+        "providersUsed": [
+          "basic-http",
+          "readability"
+        ],
+        "redacted": false,
+        "title": "AI in FY 2026 National Defense Authorization Acts",
+        "description": "Both the US House of Representatives and the US Senate have continued to increase the attention paid to artificial intelligence (AI) issues for the defense sector, most notably by including a number of provisions in the text of the National Defense Authorization Act (NDAA) for Fiscal Year 2026 (FY 2026), alongside the Senate’s version.",
+        "author": "Scott J. Gelbman",
+        "published_on": "2025-09-11T19:15:30.000Z",
+        "publication_date": "2025-09-11T19:15:30.000Z",
+        "body": "<div id=\"readability-page-1\" class=\"page\"><div>\n  \n    \n      <p><span>Artificial Intelligence Provisions in the Fiscal Year 2026 House and Senate National Defense Authorization Acts</span>\n\n    </p>\n  </div><div>\n  \n    \n      <p><span>Thursday, September 11, 2025</span>\n\n    </p>\n  </div><div><p>Both the US House of Representatives and the US Senate have continued to increase the attention paid to artificial intelligence (AI) issues for the defense sector, most notably by including a number of provisions in the text of the National Defense Authorization Act (NDAA) for Fiscal Year 2026 (FY 2026), alongside the Senate’s&nbsp;<a href=\"https://www.congress.gov/bill/119th-congress/senate-bill/2296/text\">version</a>. The Chairman’s Mark of the July 2025&nbsp;<a href=\"https://armedservices.house.gov/uploadedfiles/chairmans_mark.pdf\">text</a>&nbsp;of the NDAA notes that the House Armed Services Committee “is aware of the rapidly changing capabilities of [AI] and recognizes its expanding potential for application across the Department of Defense.” The House bill emphasizes the widespread impact of AI across administrative, international, and research functions. On the Senate side, the bill stresses the long-term capabilities of AI creating opportunities for experimentation, model development, and risk frameworks. The House Armed Services Committee passed their version of the NDAA with a vote of 55-2 and the Senate Armed Services Committee advanced its version of the bill on 9 July 2025, after a 26-1 vote. Both chambers will spend the first two weeks of September debating their respective NDAAs on the floor while considering hundreds of amendments. It is highly likely both bills will succeed in getting off the floor but the House version will be more partisan. The bills will be reconciled during the conference process before final passage in both chambers and ultimately signed into law by the president. Stakeholders should closely monitor this process, as key provisions related to AI could shift during conference negotiations or floor amendments.</p>\n<h4>Key Takeaways:</h4>\n<ul>\n<li>Both the House and Senate versions of the FY 2026 NDAA prioritize the adoption and integration of AI across military operations, logistics, and mission-critical applications.&nbsp;</li>\n<li>Both the House and Senate highlight the importance of workforce development, with AI education, cybersecurity training, and advanced manufacturing skills, while the Senate also establishes experimental sandbox environments for training and model development.</li>\n<li>Although governance is a main priority in both the House and Senate, Senate places an emphasized focus on standardized frameworks, risk-based security measures, and supply-chain oversight.</li>\n</ul>\n<h4>AI Education and Training</h4>\n<p>In Section 822, the House bill establishes a working group to address workforce shortages in advanced manufacturing, including AI, and encourages public-private partnerships to incentivize government and industry participation. The House Armed Services Committee also adds a renewed focus for the Department of Defense’s (DoD) annual cybersecurity training to include the unique challenges related to AI (Section 1512). The Senate bill complements this approach in Section 1622 by establishing a taskforce within the DoD to create an AI sandbox environment for experimentation, training, and model development. This taskforce is intended to accelerate responsible AI adoption and strengthen public-private partnerships.&nbsp;</p>\n<h4>AI Governance, Oversight, and Security&nbsp;</h4>\n<p>The House bill emphasizes modernization and security in technology policy. Section 1074 outlines a framework to modernize the technology transfer policies of the military departments and update the National Disclosure Policy, which governs the sharing of classified military information to foreign governments and international organizations. It lists detailed guidelines for security considerations for information sharing between US allies and partners. It further calls for the adoption of industry-recognized frameworks to guide best practices, established standards for governance, and specific training requirements to mitigate vulnerabilities specific to AI and machine learning (Section 1531). The bill also directs the DoD to establish requirements for managing “biological data” generated through DoD-funded research in a way that supports the development and use of AI technologies (Section 1521). Although Section 1521 does not explicitly define “biological data,” it instructs the Secretary of Defense to develop a definition for “qualified biological data resource” based on several criteria: (1) the type of biological data generated, (2) the size of the data collection, (3) the amount of federal funding awarded to the research, (4) the sensitivity level of the data, and (5) any other factor the Secretary deems appropriate. &nbsp;</p>\n<p>The Senate bill includes several provisions to strengthen AI governance and security. It calls for a standardized model assessment and oversight framework (Section 1623), a Department-wide ontology governance working group to ensure data interoperability (Section 1624), and a steering committee to evaluate the strategic implications of AI intelligence (Section 1626). Further, the Senate bill mandates risk-based cybersecurity and physical security requirements for AI systems (Section 1627), prohibits the use of certain foreign-developed AI technologies (Section 1628), and directs the Secretary of Defense to develop digital content provenance standards to safeguard the integrity of AI-generated media (Section 1629). It also includes &nbsp;provisions to create a public-private cybersecurity partnership focused on advanced AI systems (Section 1621) as well as secure digital sandbox environments for testing and experimentation (Section 1622).</p>\n<h4>Deployment and Operational Methods for AI Research and Development</h4>\n<p>In Section 1532, the House bill calls for accelerated utilization of AI in military operations and coordination by launching pilot programs for the Army, Navy, and Air Force branches. These programs would employ commercial AI solutions to improve ground vehicle maintenance. The DoD is also required to produce up to 12 generative AI tools to support mission-critical areas such as damage assessment, cybersecurity, mission analysis, and others (Section 1533).&nbsp;</p>\n<p>Additionally, Section 328 of the Senate bill directs the Secretary of Defense to integrate commercially available AI tools specifically for logistics tracking, planning, operations, and analytics into at least two exercises during FY26. This section mirrors the House’s focus on incorporating commercial AI into logistics operations to test and evaluate AI tools in operational contexts.&nbsp;</p>\n<h4>Unique House AI Initiatives&nbsp;</h4>\n<p>In Title X and XVIII, the House Armed Services Committee creates broad, yet firm calls for the survey and accelerated adoption of AI technologies. In Title X, the DoD must evaluate and survey all current AI technologies in use to find areas to be improved in terms of accuracy and reducing collateral damage. Additionally, in Title XVIII, the DoD is authorized to accelerate autonomy-enabling software across defense programs using middle-tier acquisition authorities allowed by Section 3603 of Title X. Lastly, the House bill uniquely targets international cooperation. In Section 1202, the bill establishes an emerging technology cooperation program with certain allies to conduct joint research, development, testing, and evaluation in critical areas such as AI, cybersecurity, robotics, quantum, and automation.&nbsp;</p>\n<h4>Unique Senate AI Initiatives</h4>\n<p>The Senate NDAA establishes targeted initiatives for AI across national security domains. Section 3118 limits AI research within the National Nuclear Security Administration to support nuclear security missions, while allowing resource sharing with other agencies. Section 1602 directs the commander of United States Cyber Command, in coordination with DoD AI leadership and research offices, to develop a roadmap for industry collaboration on AI-enabled cyberspace operations. This roadmap will guide private sector engagement and the integration of advanced AI into cyber operations.&nbsp;</p>\n<h4>Conclusion</h4>\n<p>The House and Senate Armed Services Committees are not the only congressional bodies focused on advancing AI federal policy. Multiple committees across jurisdictions have actively engaged in this effort, holding hearings and drafting legislation aimed at shaping the future of AI governance.&nbsp;</p>\n<p>In parallel, the Trump administration recently introduced its AI Action Plan along with a robust AI export strategy (see our alerts on the AI Action Plan and AI Export Strategy for further details). We anticipate continued momentum in both Congress and the Executive Branch in the months ahead.&nbsp;</p>\n<p>Our Policy and Regulatory practice team is closely monitoring both legislative and regulatory developments and is ready to help advocate for your policy priorities in this rapidly evolving landscape.</p>\n</div></div>",
+        "word_count": 1244,
+        "publisher": "National Law Review",
+        "language": "eng",
+        "tags": [
+          "artificial",
+          "intelligence",
+          "provisions",
+          "fiscal",
+          "year",
+          "house",
+          "senate",
+          "national",
+          "defense",
+          "authorization"
+        ],
+        "notes": [
+          "Playwright rendering failed: page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://natlawreview.com/article/artificial-intelligence-provisions-fiscal-year-2026-house-and-senate-national\", waiting until \"networkidle\"\u001b[22m\n"
+        ],
+        "shortlisted": false,
+        "reviewStage": "awaiting_manager",
+        "id": "6ba81515-348c-4583-8ecd-b4b90a60df98",
+        "status": "ready",
+        "history": [],
+        "rescanState": {
+          "status": "idle"
+        }
+      },
+      {
+        "url": "https://rebootdemocracy.ai/blog/NJ-AI-2025",
+        "confidence": 90,
+        "reason": "All key fields captured.",
+        "provider": "readability",
+        "provenance": {
+          "title": "readability",
+          "description": "readability",
+          "author": "readability",
+          "publisher": "readability",
+          "published_on": "readability",
+          "publication_date": "readability",
+          "body": "readability",
+          "word_count": "readability",
+          "tags": "readability",
+          "language": "readability"
+        },
+        "providersUsed": [
+          "playwright",
+          "readability"
+        ],
+        "redacted": false,
+        "title": "From Interim to Institution: New Jersey’s Three-Pillar Strategy for Responsible AI",
+        "description": "With its new 2025 AI policy, New Jersey has advanced from interim guidance that encouraged experimentation to a framework that enables safe, large-scale use. Building on two years of training and adoption by more than 15,000 public servants, the state is now focused on using AI not just to streamline work, but to deliver better services where it matters most.",
+        "author": "Read Bio →",
+        "published_on": "2025-09-15T19:00:00.000Z",
+        "publication_date": "2025-09-15T19:00:00.000Z",
+        "body": "<div id=\"readability-page-1\" class=\"page\"><div><article role=\"article\" aria-labelledby=\"article-title\"><h2 dir=\"ltr\" id=\"heading-1\"><span>From Interim to Institution: New Jersey’s Three-Pillar Strategy for Responsible AI</span></h2>\n<p dir=\"ltr\">In July, Code for America <a href=\"https://www.nj.gov/governor/news/news/562025/approved/20250715d.shtml\" target=\"_blank\" rel=\"noopener noreferrer\">named New Jersey<span> (opens in new window)</span></a> one of only three states with “advanced” AI readiness. That honor recognizes how we have combined policy, access, and training into a coherent strategy for using AI responsibly in government.</p>\n<p dir=\"ltr\">We were the first state to issue an AI use policy back in 2023. Importantly, that guidance was always meant to be interim. Its purpose was to encourage responsible experimentation at a moment when generative AI tools were brand new and untested in government.</p>\n<p dir=\"ltr\">We knew staff needed both permission and guardrails to start exploring how these technologies might make their work faster, clearer, or more accessible to the public.</p>\n<p dir=\"ltr\">Two years later, more than 15,000 state employees—over one in five—are using generative AI. They’ve logged hundreds of thousands of prompts in the NJ AI Assistant, and they’ve completed training that equips them to use the technology ethically. With this scale of adoption, it was time to update our policy.&nbsp;</p>\n<p dir=\"ltr\">This month, New Jersey’s Chief Technology Officer, working together with the State’s Office of Innovation,<a href=\"https://nj.gov/it/docs/ps/25-OIT-001-State-of-New-Jersey-Guidance-on-Responsible-Use-of-Generative-AI.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> issued version 2 of the State’s AI Policy.<span> (opens in new window)</span></a></p>\n<h2 dir=\"ltr\" id=\"heading-2\"><span>What’s New in the 2025 Guidance</span></h2>\n<p dir=\"ltr\">The revised guidance moves from a spirit of exploration to one of institutionalization, shifting from “try it out” to “scale it safely.”</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"1\">\n<div dir=\"ltr\" role=\"presentation\"><p><strong>Training is now required</strong>.</p><p>“Before accessing or using generative AI in their official capacity, all state employees should take the ‘Responsible AI for Public Professionals’ course available in the New Jersey Civil Service Commission Learning Management System.”</p><p>In New Jersey, we designed our own training and shared it freely with other states through the <a href=\"https://innovate-us.org/\" target=\"_blank\" rel=\"noopener noreferrer\">InnovateUS<span> (opens in new window)</span></a> initiative</p></div>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<div dir=\"ltr\" role=\"presentation\"><p><strong>High-risk uses require clearance</strong>.</p><p>“The use of resident-facing or decisional generative AI systems must be cleared by the State Chief Technology Officer or their delegate and registered with the NJ Office of Information Technology… When resident-facing or decisional generative AI systems are used, disclosure of generative AI use must be displayed prominently to the user.”</p><p>In other words, public professionals should—and are—using AI for their own productivity, but heightened scrutiny must be applied for uses that directly impact residents.</p></div>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<div dir=\"ltr\" role=\"presentation\"><p><strong>Secure environments for sensitive data.</strong></p><p>“Sensitive Personally Identifiable Information… may only be used under the following conditions: the tool used is a State-Approved AI Tool such as the NJ AI Assistant… [and] the tool use is approved by your Agency Chief Information Officer.”</p><p>This is a major shift from the earlier blanket ban.</p></div>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<div dir=\"ltr\" role=\"presentation\"><p><strong>Human review remains non-negotiable.</strong></p><p>“Human review of AI content should cover the following elements: accuracy; gender, racial, and other types of bias; completeness; accessibility; and style.”</p></div>\n</li>\n</ul>\n<p dir=\"ltr\">Together, these updates show a deliberate shift from encouraging experimentation to building the systems and safeguards needed for AI at scale.</p>\n<h2 dir=\"ltr\" id=\"heading-3\"><span>Why the Policy Still Matters Most</span></h2>\n<p dir=\"ltr\">Access and <a href=\"https://nj.gov/infobank/eo/056murphy/pdf/EO-346.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">training<span> (opens in new window)</span></a> are critical, but policy remains the foundation. Without clear guardrails, public servants might not feel safe experimenting—or worse, they might adopt AI in ways that undermine trust.</p>\n<p dir=\"ltr\">The policy provides both permission and protection: it tells employees that they can use AI to draft, translate, summarize, or analyze, but it also tells them how to do it safely. It ensures that even as we scale access and build skills, AI is used for purposes that matter—helping families access food benefits, simplifying forms, improving call center response, or analyzing citizen feedback.</p>\n<h2 dir=\"ltr\" id=\"heading-4\"><span>Lessons for Other States and Cities</span></h2>\n<p dir=\"ltr\">I think we got this sequencing right and recommend it to others considering how to incorporate AI responsibly:</p>\n<ol>\n<li dir=\"ltr\" aria-level=\"1\">\n<blockquote dir=\"ltr\" role=\"presentation\">Start with a policy that encourages experimentation in the public interest. Don’t wait for perfection—set interim guardrails so employees can begin learning. Boston did this first, and we followed its lead in using AI with a clear injunction to use it wisely to improve governance.</blockquote>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<blockquote dir=\"ltr\" role=\"presentation\">Invest in access and training together. Giving people tools without guidance is risky; training without access is irrelevant. That’s why we created the <a href=\"https://innovate-us.org/\" target=\"_blank\" rel=\"noopener noreferrer\">InnovateUS<span> (opens in new window)</span></a> training that shows how to use AI for public purposes in governing—and gave staff access to the latest models so they could test what AI can and cannot do while protecting privacy.</blockquote>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<blockquote dir=\"ltr\" role=\"presentation\">Update the policy as adoption grows. Governance must evolve alongside usage, becoming more structured as risks and opportunities become clearer. Every agency has an AI lead and we meet regularly. This forum, together with our live trainings, provides additional opportunities to surface and answer questions. We answer them in an <a href=\"https://innovation.nj.gov/ai-faq-state-employees/\" target=\"_blank\" rel=\"noopener noreferrer\">FAQ<span> (opens in new window)</span></a> that we can add to even faster than the policy.</blockquote>\n</li>\n</ol>\n<h2 dir=\"ltr\" id=\"heading-5\"><span>Beyond Policy: The Next Challenge</span></h2>\n<p dir=\"ltr\">New Jersey’s updated guidance is less about rules on paper and more about creating the conditions for responsible, meaningful use of AI in government. But policy is not the end point.</p>\n<p dir=\"ltr\">As Chief AI Strategist for New Jersey, I believe our next challenge is to accelerate how we use these tools critically in our day-to-day work to improve service delivery. The policy is a guardrail—but the purpose is impact.</p>\n<p dir=\"ltr\">By using AI to match records across agencies, the State’s Office of Innovation <a href=\"https://www.nj.com/mosaic/2025/07/how-nj-is-using-ai-to-ensure-thousands-of-kids-dont-go-hungry-this-summer.html\" target=\"_blank\" rel=\"noopener noreferrer\">enrolled more than 693,000 eligible children in the summer food program<span> (opens in new window)</span></a>, reaching tens of thousands more families than traditional methods.&nbsp;</p>\n<p dir=\"ltr\">We need to do much more of that—leveraging AI not just to make government work faster, but to make it work better for the people who rely on it most.</p>\n<h2 dir=\"ltr\" id=\"heading-6\"><span>The Bottom Line</span></h2>\n<p dir=\"ltr\">Policy, access, and training—together—make it possible for AI to improve the daily work of public service, while keeping equity, accountability, and public trust at the center. The job now is to ensure that responsible use translates into real, measurable improvements in people’s lives.</p>\n</article></div></div>",
+        "word_count": 944,
+        "publisher": "Burnes Center for Social Change logo",
+        "language": "eng",
+        "tags": [
+          "interim",
+          "institution",
+          "jerseys",
+          "three-pillar",
+          "strategy",
+          "responsible",
+          "ai",
+          "july",
+          "code",
+          "america"
+        ],
+        "notes": [],
+        "shortlisted": false,
+        "reviewStage": "awaiting_manager",
+        "id": "fb8057e3-48ae-4f21-bb60-5135765cdf5d",
+        "status": "ready",
+        "history": [],
+        "rescanState": {
+          "status": "idle"
+        }
+      },
+      {
+        "url": "https://www.theguardian.com/world/2025/sep/11/albania-diella-ai-minister-public-procurement",
+        "confidence": 90,
+        "reason": "All key fields captured.",
+        "provider": "readability",
+        "provenance": {
+          "title": "readability",
+          "description": "readability",
+          "author": "readability",
+          "publisher": "readability",
+          "published_on": "readability",
+          "publication_date": "readability",
+          "body": "readability",
+          "word_count": "readability",
+          "tags": "readability",
+          "language": "readability"
+        },
+        "providersUsed": [
+          "playwright",
+          "readability"
+        ],
+        "redacted": false,
+        "title": "Albania puts AI-created ‘minister’ in charge of public procurement",
+        "description": "Edi Rama, PM, says digital assistant Diella will make Albania ‘a country where public tenders are 100% free of corruption’",
+        "author": "Jon Henley",
+        "published_on": "2025-09-12T01:31:06.000Z",
+        "publication_date": "2025-09-12T01:31:06.000Z",
+        "body": "<div id=\"readability-page-1\" class=\"page\"><div id=\"maincontent\"><p>A digital assistant that helps people navigate government services online has become the first “virtually created” AI cabinet minister and put in charge of public procurement in an attempt to cut down on corruption, the Albanian prime minister has said.</p><p>Diella, which means Sun in Albanian, has been <a href=\"https://a2news.com/english/shqiperia/aktualitet/diella-rama-prezanton-asistenten-e-re-virtuale-me-ze-dhe-fi-i1138185\" data-link-name=\"in body link\">advising users on the state’s e-Albania portal since January</a>, helping them through voice commands with the full range of bureaucratic tasks they need to perform in order to access about 95% of citizen services digitally.</p><p>“Diella, the first cabinet member who is not physically present, but has been virtually created by AI”, would help make Albania “a country where public tenders are 100% free of corruption”, Edi Rama said on Thursday.</p><p>Announcing the makeup of his fourth consecutive government at the ruling Socialist party conference in Tirana, Rama said Diella, who on the e-Albania portal is dressed in traditional Albanian costume, would become “the servant of public procurement”.</p><p>Responsibility for deciding the winners of public tenders would be removed from government ministries in a “step-by-step” process and handled by artificial intelligence to ensure “all public spending in the tender process is 100% clear”, he said.</p><p>Diella would examine every tender in which the government contracts private companies and objectively assess the merits of each, said Rama, who was re-elected in May and has previously said he sees AI as a potentially effective anti-corruption tool that would eliminate bribes, threats and conflicts of interest.</p><p>Public tenders have long been a source of corruption scandals in Albania, which experts say is a hub for international gangs seeking to launder money from trafficking drugs and weapons and where graft has extended into the upper reaches of government.</p><p><a href=\"https://www.gazetaexpress.com/en/Diella--the-first-digital-minister-in-the-Albanian-government/\" data-link-name=\"in body link\">Albanian media praised</a> the move as “a major transformation in the way the Albanian government conceives and exercises administrative power, introducing technology not only as a tool, but also as an active participant in governance”.</p><figure data-spacefinder-role=\"inline\" data-spacefinder-type=\"model.dotcomrendering.pageElements.NewsletterSignupBlockElement\"><a data-ignore=\"global-link-styling\" href=\"#EmailSignup-skip-link-8\">skip past newsletter promotion</a><p id=\"EmailSignup-skip-link-8\" tabindex=\"0\" aria-label=\"after newsletter promotion\" role=\"note\">after newsletter promotion</p></figure><p>Not everyone was convinced, however. “In Albania, even Diella will be corrupted,” commented one Facebook user.</p></div></div>",
+        "word_count": 330,
+        "publisher": "The Guardian",
+        "language": "eng",
+        "tags": [
+          "digital",
+          "assistant",
+          "helps",
+          "people",
+          "navigate",
+          "government",
+          "services",
+          "online",
+          "virtually",
+          "created"
+        ],
+        "notes": [],
+        "shortlisted": false,
+        "reviewStage": "analyst_review",
+        "id": "8ec489cc-c368-4974-bdb3-866c775c4e20",
+        "status": "ready",
+        "history": [],
+        "rescanState": {
+          "status": "idle"
+        }
+      }
+    ],
+    "metadata": {
+      "actor": "Analyst",
+      "createdVia": "ui-share-link"
+    },
+    "id": "d7d44892-399e-43e8-a4ed-6d2ac87fd6ec"
   }
 ]

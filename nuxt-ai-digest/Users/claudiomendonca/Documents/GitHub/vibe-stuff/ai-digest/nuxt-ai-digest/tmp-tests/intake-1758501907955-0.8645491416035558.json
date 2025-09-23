@@ -1,0 +1,30 @@
+[
+  {
+    "token": "03e448cf-68b8-4d3a-9ce8-12580c52dd50",
+    "urls": [
+      "https://example.com/a",
+      "https://example.com/b"
+    ],
+    "reviewer": "Analyst Test",
+    "duplicateUrls": [
+      "https://example.com/b"
+    ],
+    "status": "staged",
+    "createdAt": "2025-09-22T00:45:07.956Z",
+    "metadata": {
+      "note": "seed batch"
+    },
+    "history": [
+      {
+        "event": "stage",
+        "timestamp": "2025-09-22T00:45:07.956Z",
+        "payload": {
+          "duplicateUrls": [
+            "https://example.com/b"
+          ]
+        }
+      }
+    ],
+    "id": "a0f6c2d5-581e-4428-aa32-0cd5399c5b7a"
+  }
+]

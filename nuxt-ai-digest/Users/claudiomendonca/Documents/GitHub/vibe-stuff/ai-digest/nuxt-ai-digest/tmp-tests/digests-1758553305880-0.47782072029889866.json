@@ -1,0 +1,45 @@
+[
+  {
+    "createdAt": "2025-09-22T15:01:45.880Z",
+    "summary": {
+      "total": 1,
+      "durationMs": 250,
+      "shortlistedTotal": 0
+    },
+    "records": [
+      {
+        "id": "e46ab1ad-4114-414e-be42-df6b9b195809",
+        "url": "https://meta.com",
+        "title": "",
+        "description": "",
+        "author": "",
+        "published_on": "",
+        "publication_date": "",
+        "body": "",
+        "word_count": 0,
+        "tags": [],
+        "publisher": "",
+        "language": "",
+        "confidence": 90,
+        "reason": "Test fixture",
+        "provider": "test-provider",
+        "provenance": {},
+        "providersUsed": [],
+        "notes": [],
+        "redacted": false,
+        "shortlisted": false,
+        "reviewStage": "analyst_review",
+        "status": "ready",
+        "history": [],
+        "rescanState": {
+          "status": "idle"
+        }
+      }
+    ],
+    "metadata": {
+      "actor": "Test Reviewer",
+      "createdVia": "unit-test"
+    },
+    "id": "d2576fe6-b5ee-476f-a508-37f88601ab63"
+  }
+]

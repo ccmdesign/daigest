@@ -1,0 +1,22 @@
+openapi: 3.0.0
+info:
+  title: Publish API
+  version: 1.0.0
+paths:
+  /api/publish:
+    post:
+      summary: Triggers the job to publish shortlisted cards to Directus.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                issue_id:
+                  type: string
+      responses:
+        '202':
+          description: Publish job accepted and is running in the background.
+        '400':
+          description: Invalid request, e.g., no cards to publish.

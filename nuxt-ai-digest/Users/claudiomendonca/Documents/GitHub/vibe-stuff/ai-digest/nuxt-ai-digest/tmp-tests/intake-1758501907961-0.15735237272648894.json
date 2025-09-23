@@ -1,0 +1,22 @@
+[
+  {
+    "token": "9c5c69eb-3db6-4c42-b026-4cc39c9bbea4",
+    "urls": [
+      "https://kept.example"
+    ],
+    "reviewer": "Analyst",
+    "duplicateUrls": [],
+    "status": "staged",
+    "createdAt": "2025-09-22T00:45:07.961Z",
+    "history": [
+      {
+        "event": "stage",
+        "timestamp": "2025-09-22T00:45:07.961Z",
+        "payload": {
+          "duplicateUrls": []
+        }
+      }
+    ],
+    "id": "d266cdeb-edb7-4b7a-a9ba-a0dc125f7c8c"
+  }
+]

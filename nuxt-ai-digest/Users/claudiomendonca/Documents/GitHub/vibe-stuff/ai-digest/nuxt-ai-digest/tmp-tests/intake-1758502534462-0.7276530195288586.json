@@ -1,0 +1,36 @@
+[
+  {
+    "token": "33a49b3d-5231-4fd6-9424-e7d9c56c22b7",
+    "urls": [
+      "https://beta.test"
+    ],
+    "reviewer": "Analyst",
+    "duplicateUrls": [
+      "https://beta.test"
+    ],
+    "status": "confirmed",
+    "createdAt": "2025-09-22T00:55:34.462Z",
+    "history": [
+      {
+        "event": "stage",
+        "timestamp": "2025-09-22T00:55:34.462Z",
+        "payload": {
+          "duplicateUrls": [
+            "https://beta.test"
+          ]
+        }
+      },
+      {
+        "event": "confirm",
+        "timestamp": "2025-09-22T00:55:34.462Z",
+        "payload": {
+          "confirmedUrls": [
+            "https://beta.test"
+          ]
+        }
+      }
+    ],
+    "id": "bb667998-7c37-4407-98c3-c0b03883f68b",
+    "confirmedAt": "2025-09-22T00:55:34.462Z"
+  }
+]

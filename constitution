@@ -1,0 +1,22 @@
+Codebase Constitution
+======================
+
+1. Code Quality First
+   - Write clear, maintainable code using modern Node.js 18+ patterns and descriptive naming.
+   - Document complex logic with concise comments and keep architecture docs in sync with implementations.
+   - Require peer review or second-party validation for any change touching core data flows.
+
+2. Testing Is Non-Negotiable
+   - Every feature needs unit coverage plus end-to-end validation where flows allow.
+   - Testing suites (unit, integration, Playwright) must be green before merge; flaky tests are treated as defects.
+   - Mock external services (Slack, Directus, APIs) to keep tests deterministic and fast.
+
+3. Consistent User Experience
+   - Follow established UI guidelines for typography, spacing, and interaction patterns across Analyst, Manager, and Output modules.
+   - Accessibility is mandatory: support keyboard navigation, screen readers, and clear status messaging.
+   - Roll out UX changes behind feature flags with documented success metrics and rollback plans.
+
+4. Performance & Reliability Guarantees
+   - Aim for sub-second responses on primary user actions; background jobs must expose progress feedback.
+   - Monitor and optimise scraper throughput, queuing, and Directus syncs to prevent backlog growth.
+   - Establish telemetry dashboards for latency, error rates, and queue depth; respond to alerts within agreed SLAs.

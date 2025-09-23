@@ -156,7 +156,9 @@ async function processUrl(url: string, { renderer, options }: { renderer: any, o
     language: fields.language || '',
     tags: redacted ? [] : fields.tags || [],
     notes: notes || [],
+    shortlisted: false,
+    reviewStage: 'analyst_review',
   }
-  
+
   return output
 }

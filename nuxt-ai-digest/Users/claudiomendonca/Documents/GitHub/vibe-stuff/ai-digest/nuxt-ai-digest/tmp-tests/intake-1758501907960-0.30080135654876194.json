@@ -1,0 +1,31 @@
+[
+  {
+    "token": "1d59f112-3bd6-415c-845e-4cf238c72a23",
+    "urls": [
+      "https://reject.me"
+    ],
+    "reviewer": "Analyst",
+    "duplicateUrls": [],
+    "status": "rejected",
+    "createdAt": "2025-09-22T00:45:07.960Z",
+    "history": [
+      {
+        "event": "stage",
+        "timestamp": "2025-09-22T00:45:07.960Z",
+        "payload": {
+          "duplicateUrls": []
+        }
+      },
+      {
+        "event": "reject",
+        "timestamp": "2025-09-22T00:45:07.960Z",
+        "payload": {
+          "reason": "Not relevant"
+        }
+      }
+    ],
+    "id": "7e48b83f-cb55-450a-8535-aed45ea79ce2",
+    "rejectedAt": "2025-09-22T00:45:07.960Z",
+    "rejectionReason": "Not relevant"
+  }
+]

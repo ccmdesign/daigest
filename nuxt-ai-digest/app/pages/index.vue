@@ -8,17 +8,48 @@
     </div>
 
     <!-- Header -->
-    <div class="text-center mb-8">
-      <h1 class="text-4xl font-bold text-gray-900 mb-4">
-        AI Link Digest
-      </h1>
-      <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-        Paste article links below and get enriched metadata, summaries, and confidence scoring for each link.
-      </p>
+    <header class="mb-8 flex flex-col items-center gap-3 md:flex-row md:justify-between">
+      <div>
+        <h1 class="text-4xl font-bold text-gray-900">
+          AI Link Digest
+        </h1>
+        <p class="text-lg text-gray-600 max-w-2xl">
+          Paste article links below and get enriched metadata, summaries, and confidence scoring for each link.
+        </p>
+      </div>
+      <nav class="flex items-center gap-2 rounded-full border border-muted bg-white px-3 py-1 shadow-sm">
+        <NuxtLink
+          to="/"
+          :class="navLinkClass('/')"
+        >
+          Analyst Workspace
+        </NuxtLink>
+        <NuxtLink
+          to="/review"
+          :class="navLinkClass('/review')"
+        >
+          Manager Review
+        </NuxtLink>
+      </nav>
+    </header>
+
+    <div class="mx-auto mb-8 max-w-md">
+      <label for="reviewer-name" class="mb-1 block text-sm font-medium text-gray-700">Reviewer name</label>
+      <Input
+        id="reviewer-name"
+        v-model="reviewerName"
+        type="text"
+        placeholder="Add your name for saved digests"
+        class="w-full"
+      />
+      <p class="mt-1 text-xs text-muted-foreground">Used to tag history entries and saved digests.</p>
     </div>
 
     <!-- URL Input Section -->
-    <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6 mb-8">
+    <form
+      class="bg-white rounded-lg shadow-sm border border-gray-200 p-6 mb-8"
+      @submit.prevent="processUrls"
+    >
       <div class="mb-4">
         <label for="urls" class="block text-sm font-medium text-gray-700 mb-2">
           Article Links
@@ -32,7 +63,7 @@
           :disabled="isProcessing"
         />
       </div>
-      
+
       <!-- URL Validation Display -->
       <div v-if="detectedUrls.length > 0" class="mb-4">
         <p class="text-sm text-gray-600 mb-2">
@@ -61,55 +92,73 @@
       <div class="flex items-center justify-between">
         <div class="flex items-center gap-4">
           <Button
-            @click="processUrls"
-            :disabled="detectedUrls.length === 0 || isProcessing"
+            as="input"
+            type="submit"
             size="lg"
             class="px-6 py-3"
-          >
-            {{ isProcessing ? 'Processing...' : `Process ${detectedUrls.length} URL${detectedUrls.length === 1 ? '' : 's'}` }}
-          </Button>
-          
+            :disabled="isSubmitDisabled"
+            :value="submitLabel"
+          />
+
           <Button
             v-if="completedRecords.length > 0"
+            type="button"
             @click="clearResults"
             variant="ghost"
           >
             Clear Results
           </Button>
         </div>
-        
+
         <div v-if="isProcessing" class="text-sm text-gray-500">
           This may take up to 30 seconds...
         </div>
       </div>
-    </div>
+    </form>
 
-    <!-- Processing Status -->
-    <div v-if="isProcessing" class="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-8">
-      <div class="flex flex-col gap-3">
-        <div class="flex items-center gap-3">
-          <div class="w-5 h-5 border-2 border-blue-200 border-t-blue-600 rounded-full animate-spin"></div>
-          <div>
-            <p class="text-blue-800 font-medium">Processing articles...</p>
-            <p class="text-blue-600 text-sm">
-              {{ processedCount }} / {{ statusItems.length }} completed
-            </p>
-          </div>
-        </div>
-
-        <div v-if="statusItems.length" class="space-y-2">
-          <div
-            v-for="item in statusItems"
-            :key="item.index"
-            class="flex flex-col gap-1 rounded-md border border-blue-100/60 bg-blue-100/30 p-2"
-          >
-            <div class="flex items-center justify-between gap-3">
-              <p class="truncate text-sm text-blue-900">{{ item.url }}</p>
-              <Badge :class="statusBadgeClass(item.state)" class="text-xs font-medium">
-                {{ statusBadgeLabel(item.state) }}
-              </Badge>
+    <!-- Progress Panel -->
+    <div v-if="hasProgress" class="mb-6">
+      <Button variant="ghost" size="sm" class="flex items-center gap-2" @click="progressExpanded = !progressExpanded">
+        <span class="font-medium">Progress ({{ progressSummary }})</span>
+        <span class="text-xs text-muted-foreground">
+          {{ progressExpanded ? 'Hide' : 'Show' }}
+        </span>
+      </Button>
+      <div v-if="progressExpanded" class="mt-3 rounded-lg border border-blue-200 bg-blue-50 p-4">
+        <div class="flex flex-col gap-3">
+          <div class="flex items-center gap-3">
+            <div
+              v-if="isProcessing"
+              class="h-5 w-5 rounded-full border-2 border-blue-200 border-t-blue-600 animate-spin"
+            ></div>
+            <div v-else class="flex h-5 w-5 items-center justify-center text-blue-700">
+              ✓
             </div>
-            <p v-if="item.message" class="text-xs text-blue-800">{{ item.message }}</p>
+            <div>
+              <p class="text-blue-800 font-medium">
+                {{ isProcessing ? 'Processing articles...' : 'Processing complete' }}
+              </p>
+              <p class="text-blue-600 text-sm">
+                {{ processedCount }} /
+                {{ statusItems.length || detectedUrls.length || completedRecords.length }} completed
+              </p>
+            </div>
+          </div>
+
+          <div v-if="statusItems.length" class="space-y-2">
+            <div
+              v-for="item in statusItems"
+              :key="item.index"
+              class="flex flex-col gap-1 rounded-md border border-blue-100/60 bg-blue-100/30 p-2"
+            >
+              <div class="flex items-center justify-between gap-3">
+                <p class="truncate text-sm text-blue-900">{{ item.url }}</p>
+                <Badge :class="statusBadgeClass(item.state)" class="text-xs font-medium">
+                  {{ statusBadgeLabel(item.state) }}
+                </Badge>
+              </div>
+              <p v-if="item.message" class="text-xs text-blue-800">{{ item.message }}</p>
+            </div>
           </div>
         </div>
       </div>
@@ -130,18 +179,20 @@
       </div>
     </div>
 
-    <!-- Results Section -->
-    <div v-if="completedRecords.length > 0" class="space-y-6">
-      <div class="flex items-center justify-between">
-        <h2 class="text-2xl font-bold text-gray-900">
-          Results ({{ completedRecords.length }})
-        </h2>
+    <!-- Staging List -->
+    <section v-if="stagingEntries.length" class="space-y-4 mb-10">
+      <header class="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
+        <div>
+          <h2 class="text-xl font-semibold text-gray-900">Staging (Analyst review)</h2>
+          <p class="text-sm text-muted-foreground">Cards you can still edit or send to your manager.</p>
+        </div>
         <div class="flex flex-wrap items-center gap-2">
           <Badge variant="secondary" class="bg-green-100 text-green-800 border-green-200">{{ highConfidenceCount }} High</Badge>
           <Badge variant="secondary" class="bg-yellow-100 text-yellow-800 border-yellow-200">{{ mediumConfidenceCount }} Medium</Badge>
           <Badge variant="secondary" class="bg-red-100 text-red-800 border-red-200">{{ lowConfidenceCount }} Low</Badge>
+          <Badge variant="outline" class="text-xs">{{ shortlistedCount }} Shortlisted</Badge>
         </div>
-      </div>
+      </header>
 
       <p v-if="summary.durationMs" class="text-sm text-muted-foreground">
         Completed in {{ formatDuration(summary.durationMs) }}
@@ -178,15 +229,47 @@
         {{ shareState.error }}
       </p>
 
-      <!-- Article Cards -->
       <div class="flex flex-col gap-6">
-        <ArticleCard
-          v-for="(result, index) in completedRecords"
-          :key="index"
-          :article="result"
-        />
+        <div
+          v-for="entry in stagingEntries"
+          :key="entryKey(entry)"
+          class="space-y-2"
+        >
+          <ArticleCard
+            :article="entry.record"
+            :newsletter-label="entry.record.shortlisted ? 'Remove from Newsletter' : 'Add to Newsletter'"
+            :can-submit="entry.record.reviewStage === 'analyst_review'"
+            @toggle-newsletter="toggleShortlist(entry.index)"
+            @submit-manager="submitToManager(entry.index)"
+            @edit-save="handleEditSave(entry.index, $event)"
+          />
+        </div>
       </div>
-    </div>
+    </section>
+
+    <!-- Submitted List -->
+    <section v-if="submittedEntries.length" class="space-y-4">
+      <header class="flex flex-col gap-1">
+        <button class="text-left" @click="submittedExpanded = !submittedExpanded">
+          <h2 class="text-xl font-semibold text-gray-900">
+            Submitted to Manager ({{ submittedEntries.length }})
+          </h2>
+          <p class="text-sm text-muted-foreground">
+            {{ submittedExpanded ? 'Hide cards already submitted' : 'Show cards already submitted' }}
+          </p>
+        </button>
+      </header>
+
+      <div v-if="submittedExpanded" class="flex flex-col gap-6">
+        <div
+          v-for="entry in submittedEntries"
+          :key="entryKey(entry)"
+          class="space-y-2"
+        >
+          <ArticleCard :article="entry.record" :interactive="false" />
+        </div>
+      </div>
+    </section>
 
     <!-- Empty State -->
     <div v-else-if="!isProcessing" class="text-center py-12">
@@ -213,6 +296,10 @@
           <div class="space-y-1">
             <p class="font-medium">{{ new Date(entry.createdAt).toLocaleString() }}</p>
             <p class="text-muted-foreground">{{ entry.total }} URLs processed</p>
+            <p v-if="entry.reviewer" class="text-xs text-muted-foreground">Reviewer: {{ entry.reviewer }}</p>
+            <p v-if="typeof entry.shortlistedTotal === 'number'" class="text-xs text-muted-foreground">
+              Shortlisted: {{ entry.shortlistedTotal }}
+            </p>
           </div>
           <div class="flex items-center gap-2">
             <Badge v-if="entry.shareId" variant="outline" class="text-xs">Shared</Badge>
@@ -233,12 +320,20 @@
 </template>
 
 <script setup lang="ts">
-import { computed, reactive, ref, watch } from 'vue'
+import { computed, reactive, ref, watch, onMounted } from 'vue'
+import { useLocalStorage, StorageSerializers } from '@vueuse/core'
 import type { ArticleRecord } from '~/types'
 import { Button } from '~/components/ui/button'
 import { Badge } from '~/components/ui/badge'
 import { Textarea } from '~/components/ui/textarea'
+import { Input } from '~/components/ui/input'
 import { useDigestProcessor } from '~/composables/useDigestProcessor'
+import { useDigestApi } from '~/composables/useDigestApi'
+import {
+  REVIEW_STAGE_LABELS,
+  ensureReviewStage,
+  type ReviewStageValue,
+} from '~/lib/reviewStage'
 
 // Page metadata
 useSeoMeta({
@@ -248,6 +343,7 @@ useSeoMeta({
 
 // Reactive state
 const urlInput = ref('')
+const requestFetch = useRequestFetch()
 
 const {
   results,
@@ -261,12 +357,16 @@ const {
   clearError,
 } = useDigestProcessor()
 
+const { updateRecordReviewStage } = useDigestApi()
+
 type HistoryEntry = {
   runId: string
   createdAt: string
   total: number
   shareId?: string
   shareLink?: string
+  reviewer?: string
+  shortlistedTotal?: number
 }
 
 const digestHistory = useState<HistoryEntry[]>(
@@ -277,6 +377,11 @@ const digestHistory = useState<HistoryEntry[]>(
 const historyEntries = computed(() => digestHistory.value)
 const currentRunId = ref('')
 const hasRecordedHistory = ref(false)
+const reviewerName = useState('digest-reviewer-name', () => 'Analyst')
+const reviewerLabel = computed(() => {
+  const value = typeof reviewerName.value === 'string' ? reviewerName.value.trim() : ''
+  return value || 'Analyst'
+})
 
 const shareState = reactive({
   isSharing: false,
@@ -292,6 +397,29 @@ const toastState = reactive({
   timeoutId: 0 as ReturnType<typeof setTimeout> | 0,
 })
 
+const progressExpanded = ref(false)
+
+interface PersistedAnalystSession {
+  records: ArticleRecord[]
+  summary: {
+    total: number
+    durationMs: number
+    shortlistedTotal?: number
+  }
+  digestId?: string
+  link?: string
+}
+
+const persistedDigest = useLocalStorage<PersistedAnalystSession | null>(
+  'analyst-current-digest',
+  null,
+  {
+    serializer: StorageSerializers.object,
+  },
+)
+
+const route = useRoute()
+
 const toastVariantClass = computed(() => {
   switch (toastState.variant) {
     case 'success':
@@ -304,17 +432,71 @@ const toastVariantClass = computed(() => {
 })
 
 // Computed properties
+function navLinkClass(path: string): string {
+  const base = 'rounded-full px-3 py-1 text-sm font-medium transition'
+  const isActive = route.path === path || route.path.startsWith(path + '/')
+  return `${base} ${isActive ? 'bg-primary text-primary-foreground' : 'text-primary hover:bg-primary/10'}`
+}
+
 const detectedUrls = computed(() => {
   if (!urlInput.value.trim()) return []
-  
+
   const urlRegex = /https?:\/\/[^\s,\n]+/g
   const matches = urlInput.value.match(urlRegex) || []
   return [...new Set(matches)] // Remove duplicates
 })
 
-const completedRecords = computed(() => 
-  results.value.filter((record): record is ArticleRecord => Boolean(record))
+const submitLabel = computed(() => {
+  if (isProcessing.value) return 'Processing...'
+
+  const count = detectedUrls.value.length
+  if (count === 0) return 'Process URLs'
+  return `Process ${count} URL${count === 1 ? '' : 's'}`
+})
+
+const isSubmitDisabled = computed(() =>
+  detectedUrls.value.length === 0 || isProcessing.value,
 )
+
+const hasProgress = computed(() => statusItems.value.length > 0 || isProcessing.value)
+
+const progressSummary = computed(() => {
+  const total = statusItems.value.length || summary.value.total || detectedUrls.value.length
+  if (!total) return '0/0'
+  const done = Math.min(processedCount.value, total)
+  return `${done}/${total}`
+})
+
+type NormalizedArticleRecord = ArticleRecord & {
+  reviewStage: ReviewStageValue
+  shortlisted: boolean
+}
+
+type RecordEntry = {
+  record: NormalizedArticleRecord
+  index: number
+}
+
+const recordEntries = computed<RecordEntry[]>(() =>
+  results.value.reduce<RecordEntry[]>((acc, record, index) => {
+    if (!record) return acc
+    const normalized = ensureReviewStage(record) as NormalizedArticleRecord
+    acc.push({ record: normalized, index })
+    return acc
+  }, []),
+)
+
+const stagingEntries = computed(() =>
+  recordEntries.value.filter(({ record }) => record.reviewStage !== 'awaiting_manager'),
+)
+
+const submittedEntries = computed(() =>
+  recordEntries.value.filter(({ record }) => record.reviewStage === 'awaiting_manager'),
+)
+
+const completedRecords = computed(() => recordEntries.value.map((entry) => entry.record))
+
+const submittedExpanded = ref(false)
 
 const highConfidenceCount = computed(() => 
   completedRecords.value.filter(r => r.confidence >= 80).length
@@ -327,6 +509,8 @@ const mediumConfidenceCount = computed(() =>
 const lowConfidenceCount = computed(() => 
   completedRecords.value.filter(r => r.confidence < 40).length
 )
+
+const shortlistedCount = computed(() => completedRecords.value.filter((record) => record.shortlisted).length)
 
 // Methods
 function getDomainFromUrl(url: string): string {
@@ -343,7 +527,7 @@ async function processUrls() {
   startNewRun()
   await startProcessing(detectedUrls.value, {
     disableBrowser: false,
-    expectedLanguage: 'en'
+    expectedLanguage: 'en',
   })
 }
 
@@ -351,6 +535,7 @@ function clearResults() {
   reset()
   urlInput.value = ''
   resetShareState()
+  if (process.client) persistedDigest.value = null
 }
 
 function startNewRun() {
@@ -406,6 +591,8 @@ function recordHistoryEntry() {
     total: completedRecords.value.length,
     shareId: shareState.digestId || undefined,
     shareLink: shareState.link || undefined,
+    reviewer: reviewerLabel.value,
+    shortlistedTotal: shortlistedCount.value,
   }
   digestHistory.value = [entry, ...digestHistory.value].slice(0, 10)
 }
@@ -426,12 +613,148 @@ function resetShareState() {
   shareState.error = ''
 }
 
+function refreshSummaryAggregates() {
+  summary.value = {
+    ...summary.value,
+    total: completedRecords.value.length,
+    shortlistedTotal: shortlistedCount.value,
+  }
+}
+
+function entryKey(entry: RecordEntry): string {
+  return String(entry.record.id || entry.record.url || entry.index)
+}
+
+function persistAnalystState() {
+  if (!process.client) return
+  if (!results.value.length) {
+    persistedDigest.value = null
+    return
+  }
+  const recordsPlain = results.value.map((record) => JSON.parse(JSON.stringify(record)))
+  const summaryPlain = {
+    total: summary.value.total || recordsPlain.length,
+    durationMs: summary.value.durationMs || 0,
+    shortlistedTotal:
+      summary.value.shortlistedTotal !== undefined
+        ? summary.value.shortlistedTotal
+        : recordsPlain.filter((record) => record.shortlisted).length,
+  }
+  persistedDigest.value = {
+    records: recordsPlain,
+    summary: summaryPlain,
+    digestId: shareState.digestId || undefined,
+    link: shareState.link || undefined,
+  }
+}
+
+onMounted(() => {
+  if (!process.client) return
+  const stored = persistedDigest.value
+  if (!stored?.records?.length) return
+
+  shareState.digestId = stored.digestId || ''
+  shareState.link = stored.link || ''
+  results.value = stored.records.map((record) => ensureReviewStage(record) as NormalizedArticleRecord)
+  results.value = [...results.value]
+  summary.value = {
+    total: stored.summary?.total ?? stored.records.length,
+    durationMs: stored.summary?.durationMs ?? 0,
+    shortlistedTotal:
+      stored.summary?.shortlistedTotal ??
+      stored.records.filter((record: ArticleRecord) => record.shortlisted).length,
+  }
+})
+
+watch(
+  [results, summary, () => shareState.digestId, () => shareState.link],
+  () => {
+    persistAnalystState()
+  },
+  { deep: true },
+)
+
+async function setReviewStage(index: number, stage: ReviewStageValue) {
+  const record = results.value[index]
+  if (!record) return
+
+  const previous = ensureReviewStage(record) as NormalizedArticleRecord
+  if (previous.reviewStage === stage && previous.shortlisted === (stage === 'shortlisted')) {
+    return
+  }
+  const optimistic = ensureReviewStage({
+    ...record,
+    reviewStage: stage,
+    shortlisted: stage === 'shortlisted',
+  })
+
+  results.value[index] = optimistic
+  results.value = [...results.value]
+  refreshSummaryAggregates()
+
+  const digestId = shareState.digestId
+  const recordId = optimistic.id
+
+  if (!digestId || !recordId) {
+    showToast('Create a share link to persist stage changes', 'info')
+    return
+  }
+
+  try {
+    const response = await updateRecordReviewStage(digestId, recordId, {
+      reviewStage: stage,
+      shortlisted: optimistic.shortlisted,
+    })
+
+    const serverRecord = ensureReviewStage(response?.data?.record as ArticleRecord)
+    results.value[index] = { ...optimistic, ...serverRecord }
+    results.value = [...results.value]
+    refreshSummaryAggregates()
+  } catch (error: any) {
+    results.value[index] = previous
+    results.value = [...results.value]
+    refreshSummaryAggregates()
+    const message = error?.data?.message || error?.message || 'Failed to update stage'
+    showToast(message, 'error')
+  }
+}
+
+async function toggleShortlist(index: number) {
+  const record = results.value[index]
+  if (!record) return
+  const isCurrentlyShortlisted = Boolean(record.shortlisted)
+  const nextStage: ReviewStageValue = isCurrentlyShortlisted ? 'analyst_review' : 'shortlisted'
+  await setReviewStage(index, nextStage)
+}
+
+async function submitToManager(index: number) {
+  await setReviewStage(index, 'awaiting_manager')
+}
+
+function handleEditSave(index: number, payload: { title: string; description: string }) {
+  const record = results.value[index]
+  if (!record) return
+
+  const updated = ensureReviewStage({
+    ...record,
+    title: payload.title || record.title,
+    description: payload.description || record.description,
+    reviewedBy: reviewerLabel.value,
+  }) as NormalizedArticleRecord
+
+  results.value[index] = updated
+  results.value = [...results.value]
+  refreshSummaryAggregates()
+  persistAnalystState()
+}
+
 function downloadJson() {
   if (!completedRecords.value.length || !process.client) return
   const payload = {
     summary: {
       ...summary.value,
       total: completedRecords.value.length,
+      shortlistedTotal: shortlistedCount.value,
     },
     records: completedRecords.value,
   }
@@ -470,6 +793,7 @@ function buildMarkdown(): string {
     if (record.publisher) lines.push(`- Publisher: ${record.publisher}`)
     if (record.published_on) lines.push(`- Published: ${record.published_on}`)
     lines.push(`- Confidence: ${record.confidence}%`)
+    if (record.shortlisted) lines.push('- Status: Shortlisted')
     if (record.tags?.length) lines.push(`- Tags: ${record.tags.join(', ')}`)
     if (record.description) {
       lines.push('')
@@ -487,13 +811,18 @@ async function createShareLink() {
   shareState.error = ''
 
   try {
-    const response = await $fetch('/api/digest', {
+    const response = await requestFetch('/api/digest', {
       method: 'POST',
       body: {
         records: completedRecords.value,
         summary: {
           total: completedRecords.value.length,
           durationMs: summary.value.durationMs || 0,
+          shortlistedTotal: shortlistedCount.value,
+        },
+        metadata: {
+          actor: reviewerLabel.value,
+          createdVia: 'ui-share-link',
         },
       },
     })
@@ -506,7 +835,21 @@ async function createShareLink() {
         shareState.link = `${origin}/digest/${digest.id}`
         showToast('Share link created', 'success')
       }
+      if (Array.isArray(digest.records)) {
+        results.value = digest.records.map((record: ArticleRecord) => ensureReviewStage(record) as NormalizedArticleRecord)
+        results.value = [...results.value]
+      }
+      if (digest.summary) {
+        summary.value = {
+          total: Number(digest.summary.total) || completedRecords.value.length,
+          durationMs: Number(digest.summary.durationMs) || summary.value.durationMs,
+          shortlistedTotal: Number(digest.summary.shortlistedTotal) || shortlistedCount.value,
+        }
+      } else {
+        refreshSummaryAggregates()
+      }
       updateHistoryWithShare(digest.id, shareState.link)
+      persistAnalystState()
     }
   } catch (error: any) {
     shareState.error = error?.data?.message || error?.message || 'Unable to create share link'
@@ -543,6 +886,14 @@ watch(
   },
   { deep: true },
 )
+
+watch(shortlistedCount, (count) => {
+  if (isProcessing.value) return
+  if (!completedRecords.value.length) return
+  digestHistory.value = digestHistory.value.map((entry) =>
+    entry.runId === currentRunId.value ? { ...entry, shortlistedTotal: count } : entry,
+  )
+})
 
 function showToast(message: string, variant: 'info' | 'success' | 'error' = 'info', durationMs = 2500) {
   if (!process.client) return

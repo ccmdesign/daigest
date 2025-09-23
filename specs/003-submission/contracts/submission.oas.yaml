@@ -1,0 +1,19 @@
+openapi: 3.0.0
+info:
+  title: Submission API
+  version: 1.0.0
+paths:
+  /api/card/{id}/submit:
+    post:
+      summary: Submits a card for manager review.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Card successfully submitted.
+        '400':
+          description: Invalid request, e.g., card not in a submittable state.

@@ -4,7 +4,30 @@ export interface ProcessingOptions {
   writeArtifacts?: boolean
 }
 
+export interface EditableArticleFields {
+  title?: string
+  description?: string
+  author?: string
+  publisher?: string
+  notes?: string[]
+}
+
+export interface ArticleEditMetadata {
+  editedBy: string
+  editedAt: string
+  version: number
+  diffKeys: string[]
+}
+
+export interface ArticleEditPayload extends Partial<Omit<EditableArticleFields, 'notes'>> {
+  notes?: string
+  summaryNote?: string
+}
+
+import type { ReviewStageValue } from '~/lib/reviewStage'
+
 export interface ArticleRecord {
+  id?: string
   url: string
   title: string
   description: string
@@ -23,6 +46,12 @@ export interface ArticleRecord {
   providersUsed: string[]
   notes: string[]
   redacted: boolean
+  shortlisted?: boolean
+  reviewStage?: ReviewStageValue
+  reviewedBy?: string
+  original?: EditableArticleFields
+  edits?: ArticleEditPayload
+  editMetadata?: ArticleEditMetadata
 }
 
 export interface ProcessingResult {
